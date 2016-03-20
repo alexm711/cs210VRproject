@@ -4,6 +4,7 @@ using System.Collections;
 public class PlayerController : MonoBehaviour {
 
     public AudioClip hitSound;
+    public AudioClip gameOverSound;
 
     public float forceConstant = 1;
 
@@ -21,10 +22,15 @@ public class PlayerController : MonoBehaviour {
 
         else if (Input.GetKey(KeyCode.DownArrow))
         {
-            direction *= -1;
+            force *= -1;
             GetComponent<Rigidbody>().AddForce(force);
             //GetComponent<CharacterController>().Move(direction);
 
+        }
+
+        else if (Input.GetKey(KeyCode.Space))
+        {
+            GetComponent<Rigidbody>().Sleep();
         }
     }
 
@@ -36,8 +42,11 @@ public class PlayerController : MonoBehaviour {
             other.gameObject.SetActive(false);
             Debug.Log("Target object hit");
         }
-        else
-            Debug.Log("object was not Target");
+        else if (other.gameObject.CompareTag("Enemy"))
+        {
+            //TODO: we die
+            SoundManager.instance.setBackgroundMusic(gameOverSound);
+        }
         
     }
 }
