@@ -18,9 +18,24 @@ public class SoundManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
-    public void playSoundEffect(AudioClip clip)
+    public void playSoundEffectOnce(AudioClip clip)
     {
         effects.PlayOneShot(clip, 1f);
+    }
+
+    public void playSoundEffect(AudioClip clip)
+    {
+        if (effects.clip != clip || !effects.isPlaying)
+        {
+            effects.clip = clip;
+            effects.Play();
+        }
+
+    }
+
+    public void stopSoundEffect()
+    {
+        effects.Stop();
     }
 
     public void setBackgroundMusic(AudioClip clip)

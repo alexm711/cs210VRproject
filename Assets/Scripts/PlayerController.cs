@@ -5,6 +5,8 @@ public class PlayerController : MonoBehaviour {
 
     public AudioClip hitSound;
     public AudioClip gameOverSound;
+    public AudioClip forwardSound;
+    public AudioClip backSound;
 
     public float forceConstant = 1;
 
@@ -17,20 +19,24 @@ public class PlayerController : MonoBehaviour {
         if (Input.GetKey(KeyCode.UpArrow))
         {
             GetComponent<Rigidbody>().AddForce(force);
-            //GetComponent<CharacterController>().Move(direction);
+            SoundManager.instance.playSoundEffect(forwardSound);
         }
 
         else if (Input.GetKey(KeyCode.DownArrow))
         {
             force *= -1;
             GetComponent<Rigidbody>().AddForce(force);
-            //GetComponent<CharacterController>().Move(direction);
-
+            SoundManager.instance.playSoundEffect(backSound);
         }
 
         else if (Input.GetKey(KeyCode.Space))
         {
             GetComponent<Rigidbody>().Sleep();
+        }
+
+        else
+        {
+            SoundManager.instance.stopSoundEffect();
         }
     }
 
@@ -38,7 +44,7 @@ public class PlayerController : MonoBehaviour {
     {
         if (other.gameObject.CompareTag("Target"))
         {
-            SoundManager.instance.playSoundEffect(hitSound);
+            SoundManager.instance.playSoundEffectOnce(hitSound);
             other.gameObject.SetActive(false);
             Debug.Log("Target object hit");
         }
