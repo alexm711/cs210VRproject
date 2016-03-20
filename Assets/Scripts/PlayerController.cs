@@ -3,12 +3,10 @@ using System.Collections;
 
 public class PlayerController : MonoBehaviour {
 
+    public AudioClip hitSound;
+
     public float forceConstant = 1;
 
-	// Use this for initialization
-	void Start () {
-	
-	}
 	
 	// Update is called once per frame
 	void Update () {
@@ -30,5 +28,16 @@ public class PlayerController : MonoBehaviour {
         }
     }
 
-    void 
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Target"))
+        {
+            SoundManager.instance.playSoundEffect(hitSound);
+            other.gameObject.SetActive(false);
+            Debug.Log("Target object hit");
+        }
+        else
+            Debug.Log("object was not Target");
+        
+    }
 }
