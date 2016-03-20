@@ -10,9 +10,29 @@ public class PlayerController : MonoBehaviour {
 
     public float forceConstant = 1;
 
+    private bool navigationDisabled = false;
+
 	
 	// Update is called once per frame
 	void Update () {
+        if(!navigationDisabled)
+        {
+            move();
+        }
+    }
+
+    public void disableNavigation()
+    {
+        navigationDisabled = true;
+    }
+
+    public void enableNavigation()
+    {
+        navigationDisabled = false;
+    }
+
+    void move()
+    {
         Vector3 direction = GameObject.FindObjectOfType<Camera>().transform.forward;
         Vector3 force = direction * forceConstant;
 
