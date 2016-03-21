@@ -32,9 +32,6 @@ public class DialogueManager : MonoBehaviour {
         t.GetComponent<UnityEngine.UI.Text>().text = alice1;
         t.GetComponent<UnityEngine.UI.Text>().color = aliceColor;
 
-        Debug.Log(t.transform.position);
-
-        Debug.Log("DialogueManager - got here");
         float startWaitTime = Time.time;
 
         bool timeout = true;
@@ -51,7 +48,7 @@ public class DialogueManager : MonoBehaviour {
          }
         if (timeout)
         {
-            Debug.Log("Three seconds is up.");
+            StartCoroutine(playTimeoutDialogue());
         }
     }
 
@@ -88,10 +85,13 @@ public class DialogueManager : MonoBehaviour {
 
     }
 
-    //IEnumerator playTimeoutDialogue()
-    //{
+    IEnumerator playTimeoutDialogue()
+   {
+        yield return new WaitForSeconds(2f);
+        t.GetComponent<UnityEngine.UI.Text>().text = alice5;
+        t.GetComponent<UnityEngine.UI.Text>().color = aliceColor;
 
-    //}
+    }
 
     private string alice1 = "Alice: Ellie, come in. Ellie, do you read? Ellie?";
 
@@ -103,5 +103,7 @@ public class DialogueManager : MonoBehaviour {
     private string alice4 = "Alice: Good for you";
 
     //Does not respond timely
-
+    private string alice5 = "Ellie, I know you can hear me."
+    private string alice6 = "Your vitals are right on my screen, and it looks like you're quite alert.";
+    
 }
