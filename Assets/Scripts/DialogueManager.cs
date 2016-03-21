@@ -5,24 +5,19 @@ public class DialogueManager : MonoBehaviour {
 	public GameObject canvas;
     public GameObject text;
 
+    public Color aliceColor = Color.cyan;
+    public Color ellieColor = Color.yellow;
+    public Color promptColor = Color.gray;
+
+    private GameObject t;
 	// Use this for initialization
 	void Start () {
-        int xpos = Screen.width / 2;
         int ypos = Screen.height / 3;
-        int width = Screen.width / 2;
-        int height = Screen.height / 8;
-        int spacing = height;
-
-
-        var t = Instantiate (text) as GameObject;
-		t.transform.SetParent (canvas.transform);
-		t.GetComponent<UnityEngine.UI.Text> ().text = alice1;
+        t = Instantiate(text) as GameObject;
+        t.transform.SetParent(canvas.transform);
         t.transform.position = new Vector3(0, -ypos, 0);
 
-        Debug.Log(t.GetComponent<UnityEngine.UI.Text>().rectTransform.position.ToString());
-
-
-        startDialogue();
+        StartCoroutine(startDialogue(2f));
 	}
 	
 	// Update is called once per frame
@@ -30,17 +25,83 @@ public class DialogueManager : MonoBehaviour {
 	
 	}
 
-    IEnumerator startDialogue()
+    IEnumerator startDialogue(float numSeconds)
     {
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(numSeconds);
+
+        t.GetComponent<UnityEngine.UI.Text>().text = alice1;
+        t.GetComponent<UnityEngine.UI.Text>().color = aliceColor;
+
+        Debug.Log(t.transform.position);
+
         Debug.Log("DialogueManager - got here");
+        float startWaitTime = Time.time;
+
+        bool timeout = true;
+        while(Time.time - startWaitTime < 3f)
+        {
+            if (Input.GetKey(KeyCode.A))
+            {
+                StartCoroutine(playResponseDialogue());
+                timeout = false;
+                break;
+            }
+
+            yield return new WaitForEndOfFrame();
+         }
+        if (timeout)
+        {
+            Debug.Log("Three seconds is up.");
+        }
     }
 
 
-    private string alice1 = "Ellie, come in. Ellie, do you read? Ellie?";
+    IEnumerator playResponseDialogue()
+    {
+        t.GetComponent<UnityEngine.UI.Text>().text = ellie1;
+        t.GetComponent<UnityEngine.UI.Text>().color = ellieColor;
+        yield return new WaitForSeconds(2f);
+
+        t.GetComponent<UnityEngine.UI.Text>().text = alice2;
+        t.GetComponent<UnityEngine.UI.Text>().color = aliceColor;
+        yield return new WaitForSeconds(2f);
+
+        t.GetComponent<UnityEngine.UI.Text>().text = alice3;
+
+        while (true)
+        {
+            if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.DownArrow))
+            {
+                break;
+            }
+
+            yield return new WaitForEndOfFrame();
+        }
+
+        t.GetComponent<UnityEngine.UI.Text>().text = ellie2;
+        t.GetComponent<UnityEngine.UI.Text>().color = ellieColor;
+
+        yield return new WaitForSeconds(2f);
+        t.GetComponent<UnityEngine.UI.Text>().text = alice4;
+        t.GetComponent<UnityEngine.UI.Text>().color = aliceColor;
+
+
+    }
+
+    //IEnumerator playTimeoutDialogue()
+    //{
+
+    //}
+
+    private string alice1 = "Alice: Ellie, come in. Ellie, do you read? Ellie?";
 
     //If respond timely
-    private string ellie1 = "Hi?";
-    private string alice2 = "Do you not...";
-    private string alice3 = "Tell me, can you move?";
+    private string ellie1 = "Ellie: Hi?";
+    private string alice2 = "Alice: Do you not...";
+    private string alice3 = "Alice: Tell me, can you move?";
+    private string ellie2 = "Ellie: I can fly";
+    private string alice4 = "Alice: Good for you";
+
+    //Does not respond timely
+
 }
