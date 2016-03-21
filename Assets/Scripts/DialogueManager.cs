@@ -2,12 +2,15 @@
 using System.Collections;
 
 public class DialogueManager : MonoBehaviour {
-
-    public GameObject button;
+	public GameObject canvas;
+    public GameObject text;
 	// Use this for initialization
 	void Start () {
-        GUI.Label(new Rect(0f, 0f, 500, 1000), alice1);
-        //startDialogue();
+		var t = Instantiate (text) as GameObject;
+		t.transform.SetParent (canvas.transform);
+		t.GetComponent<UnityEngine.UI.Text> ().text = alice1;
+
+        startDialogue();
 
 	}
 	
@@ -21,7 +24,6 @@ public class DialogueManager : MonoBehaviour {
         yield return new WaitForSeconds(3f);
         Debug.Log("Got here");
         
-        //var button = Instantiate(button) as GameObject;
     }
 
 
