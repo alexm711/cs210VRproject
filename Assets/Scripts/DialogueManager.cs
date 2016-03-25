@@ -12,9 +12,12 @@ public class DialogueManager : MonoBehaviour {
     private GameObject t;
 	// Use this for initialization
 	void Start () {
+
         int ypos = Screen.height / 3;
-        t = Instantiate(text) as GameObject;
-        t.transform.SetParent(canvas.transform);
+
+        var t = Instantiate (text) as GameObject;
+		t.transform.SetParent (canvas.transform);
+		t.GetComponent<UnityEngine.UI.Text> ().text = alice1;
         t.transform.position = new Vector3(0, -ypos, 0);
 
         StartCoroutine(startDialogue(2f));
