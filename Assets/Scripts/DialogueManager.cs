@@ -106,7 +106,7 @@ public class DialogueManager : MonoBehaviour {
     private string alice4 = "Alice: Good for you";
 
     //Does not respond timely
-    private string alice5 = "Ellie, I know you can hear me."
+    private string alice5 = "Ellie, I know you can hear me.";
     private string alice6 = "Your vitals are right on my screen, and it looks like you're quite alert.";
     
 }
