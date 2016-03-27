@@ -181,8 +181,6 @@ namespace PixelCrushers.DialogueSystem {
 		#region Subtitles
 		
 		public override void ShowSubtitle(Subtitle subtitle) {
-
-            Debug.Log(subtitle);
 			if (findActorOverrides) {
 				var overrideControls = FindActorOverride(subtitle.speakerInfo.transform);
 				if (subtitle.speakerInfo.characterType == CharacterType.NPC) {
