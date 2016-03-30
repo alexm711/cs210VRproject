@@ -29,7 +29,7 @@ public class ConversationManager : MonoBehaviour {
         {
             if(Input.GetKey(KeyCode.A))
             {
-                DialogueManager.Instance.StartConversation("EllieRespondsToAlice");
+                DialogueManager.Instance.StartConversation("Opening");
                 respondedInTime = true;
             }
             yield return new WaitForEndOfFrame();
@@ -37,7 +37,7 @@ public class ConversationManager : MonoBehaviour {
 
         if(!respondedInTime)
         {
-            DialogueManager.Instance.StartConversation("AliceAnnoyed");
+            DialogueManager.Instance.StartConversation("Opening");
         }
     }
 
