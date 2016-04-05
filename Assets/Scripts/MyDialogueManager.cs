@@ -9,7 +9,7 @@ public class MyDialogueManager : MonoBehaviour {
     public Color ellieColor = Color.yellow;
     public Color promptColor = Color.gray;
 
-    private GameObject t;
+    private GameObject t = null;
 	// Use this for initialization
 	void Start () {
 

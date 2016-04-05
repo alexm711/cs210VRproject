@@ -3,12 +3,12 @@ using System.Collections;
 
 public class SpaceGenerator : MonoBehaviour {
 
-    public int numBlocks = 8;
+    public int numTargets = 8;
     public int numDebris = 20;
     public int numEnemies = 3;
     public int radius = 20;
 
-    public Rigidbody block;
+    public Rigidbody target;
     public Rigidbody enemy;
     public Rigidbody debris;
 
@@ -21,7 +21,7 @@ public class SpaceGenerator : MonoBehaviour {
 	
     void generateSpace()
     {
-        generatePrefab(numBlocks, block, 0);
+        generatePrefab(numTargets, target, 0);
         generatePrefab(numEnemies, enemy, 0);
         generatePrefab(numDebris, debris, forceConstant);
     }
