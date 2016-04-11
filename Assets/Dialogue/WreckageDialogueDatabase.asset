@@ -1291,11 +1291,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 2
+        value: 1
         type: 5
         typeString: 
       - title: Conversant
-        value: 1
+        value: 2
         type: 5
         typeString: 
       - title: Menu Text
@@ -1353,11 +1353,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 2
+        value: 1
         type: 5
         typeString: 
       - title: Conversant
-        value: 1
+        value: 2
         type: 5
         typeString: 
       - title: Menu Text
@@ -1415,11 +1415,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 2
+        value: 1
         type: 5
         typeString: 
       - title: Conversant
-        value: 1
+        value: 2
         type: 5
         typeString: 
       - title: Menu Text
@@ -1477,11 +1477,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 2
+        value: 1
         type: 5
         typeString: 
       - title: Conversant
-        value: 1
+        value: 2
         type: 5
         typeString: 
       - title: Menu Text
