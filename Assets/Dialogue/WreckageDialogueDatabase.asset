@@ -131,11 +131,11 @@ MonoBehaviour:
       type: 0
       typeString: CustomFieldType_Text
     - title: Initial Value
-      value: False
-      type: 2
-      typeString: CustomFieldType_Boolean
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
     - title: Description
-      value: Determines whether the player responded to the first QTE at the oepning
+      value: Determines whether the player responded to the first QTE at the opening
         of the game
       type: 0
       typeString: CustomFieldType_Text
@@ -152,6 +152,20 @@ MonoBehaviour:
     - title: Description
       value: In the wrecked Space Station, Ellie respronds to first realistic thoughts
         on chances of survival
+      type: 0
+      typeString: CustomFieldType_Text
+  - id: 5
+    fields:
+    - title: Name
+      value: Refusing to leave
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Initial Value
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Description
+      value: 
       type: 0
       typeString: CustomFieldType_Text
   conversations:
@@ -306,9 +320,15 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: 
+        value: 'QTE(0,5,Responds_To_Alice,true)
+
+'
         type: 0
         typeString: CustomFieldType_Text
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: 
       conversationID: 1
       isRoot: 0
       isGroup: 0
@@ -320,7 +340,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 1
         destinationConversationID: 1
-        destinationDialogueID: 3
+        destinationDialogueID: 9
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -392,12 +412,12 @@ MonoBehaviour:
         destinationDialogueID: 5
         isConnector: 0
         priority: 2
-      conditionsString: Variable["Responds_To_Alice"] == "False"
+      conditionsString: 
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 34
-        y: 203
+        x: 27
+        y: 226
         width: 160
         height: 30
     - id: 3
@@ -457,23 +477,15 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 3
         destinationConversationID: 1
-        destinationDialogueID: 2
-        isConnector: 0
-        priority: 2
-      - originConversationID: 1
-        originDialogueID: 3
-        destinationConversationID: 1
         destinationDialogueID: 4
         isConnector: 0
         priority: 2
-      conditionsString: 
-      userScript: 'QTE(0,5,Responds_To_Alice,True)
-
-'
+      conditionsString: Variable["Responds_To_Alice"] == true
+      userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 34
-        y: 129.96907
+        x: 229
+        y: 202.96907
         width: 160
         height: 30
     - id: 4
@@ -536,12 +548,12 @@ MonoBehaviour:
         destinationDialogueID: 6
         isConnector: 0
         priority: 2
-      conditionsString: Variable["Responds_To_Alice"] == "True"
+      conditionsString: 
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 221
-        y: 202
+        x: 228
+        y: 268
         width: 160
         height: 30
     - id: 5
@@ -608,8 +620,8 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 35
-        y: 274
+        x: 33
+        y: 394
         width: 160
         height: 30
     - id: 6
@@ -677,7 +689,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 228
-        y: 275
+        y: 346
         width: 160
         height: 30
     - id: 7
@@ -744,8 +756,8 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 226
-        y: 344
+        x: 224
+        y: 414
         width: 160
         height: 30
     - id: 8
@@ -806,8 +818,82 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 114
-        y: 433
+        x: 94
+        y: 485
+        width: 160
+        height: 30
+    - id: 9
+      fields:
+      - title: Title
+        value: QTE check
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: -1
+        type: 5
+        typeString: 
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: 
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: 
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: None()
+        type: 0
+        typeString: 
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 9
+        destinationConversationID: 1
+        destinationDialogueID: 3
+        isConnector: 0
+        priority: 3
+      - originConversationID: 1
+        originDialogueID: 9
+        destinationConversationID: 1
+        destinationDialogueID: 2
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 28
+        y: 144
         width: 160
         height: 30
   - id: 4
