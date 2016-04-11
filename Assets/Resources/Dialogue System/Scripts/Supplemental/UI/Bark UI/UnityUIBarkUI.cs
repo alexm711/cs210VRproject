@@ -116,6 +116,7 @@ namespace PixelCrushers.DialogueSystem {
 		/// Subtitle to bark.
 		/// </param>
 		public void Bark(Subtitle subtitle) {
+			Debug.Log ("we barked");
 			if (ShouldShowText(subtitle)) {
 				SetUIElementsActive(false);
 				string subtitleText = subtitle.formattedText.text;

@@ -168,6 +168,20 @@ MonoBehaviour:
       value: 
       type: 0
       typeString: CustomFieldType_Text
+  - id: 6
+    fields:
+    - title: Name
+      value: Stop humoring
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Initial Value
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Description
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
   conversations:
   - id: 1
     fields:
@@ -1127,7 +1141,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: QTE(0,5,Responds_To_Alice,True)
+      userScript: Variable["Refusing_to_leave"] = true
       canvasRect:
         serializedVersion: 2
         x: 36.185577
@@ -1377,11 +1391,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 1
+        value: 2
         type: 5
         typeString: 
       - title: Conversant
-        value: 2
+        value: 1
         type: 5
         typeString: 
       - title: Menu Text
@@ -1439,7 +1453,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 1
+        value: 2
         type: 5
         typeString: 
       - title: Conversant
@@ -1501,11 +1515,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 1
+        value: 2
         type: 5
         typeString: 
       - title: Conversant
-        value: 2
+        value: 1
         type: 5
         typeString: 
       - title: Menu Text
@@ -1563,11 +1577,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 1
+        value: 2
         type: 5
         typeString: 
       - title: Conversant
-        value: 2
+        value: 1
         type: 5
         typeString: 
       - title: Menu Text
@@ -1603,7 +1617,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: 
+      userScript: Variable["Stop_humoring"] = true
       canvasRect:
         serializedVersion: 2
         x: 355.7732
@@ -3146,12 +3160,6 @@ MonoBehaviour:
         destinationDialogueID: 1
         isConnector: 0
         priority: 2
-      - originConversationID: 9
-        originDialogueID: 0
-        destinationConversationID: 9
-        destinationDialogueID: 6
-        isConnector: 0
-        priority: 2
       conditionsString: 
       userScript: 
       canvasRect:
@@ -3294,6 +3302,12 @@ MonoBehaviour:
         destinationDialogueID: 4
         isConnector: 0
         priority: 2
+      - originConversationID: 9
+        originDialogueID: 2
+        destinationConversationID: 9
+        destinationDialogueID: 21
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       canvasRect:
@@ -3366,8 +3380,8 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 30
-        y: 170
+        x: 27
+        y: 183
         width: 160
         height: 30
     - id: 4
@@ -3434,8 +3448,8 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 208.8991
-        y: 168.16515
+        x: 210.8991
+        y: 180.16515
         width: 160
         height: 30
     - id: 5
@@ -3502,70 +3516,8 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 209.81654
-        y: 218.16515
-        width: 160
-        height: 30
-    - id: 6
-      fields:
-      - title: Title
-        value: New Dialogue Entry
-        type: 0
-        typeString: 
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: 
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 2
-        type: 5
-        typeString: 
-      - title: Conversant
-        value: 1
-        type: 5
-        typeString: 
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: 
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: 
-      - title: Video File
-        value: 
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 9
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks: []
-      conditionsString: 
-      userScript: 
-      canvasRect:
-        serializedVersion: 2
-        x: 30
-        y: 70
+        x: 197.39864
+        y: 315.7173
         width: 160
         height: 30
     - id: 7
@@ -3632,8 +3584,8 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 132.75233
-        y: 273.66974
+        x: 116.33443
+        y: 363.2219
         width: 160
         height: 30
     - id: 8
@@ -3700,8 +3652,8 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 132.75233
-        y: 323.66974
+        x: 116.33443
+        y: 413.2219
         width: 160
         height: 30
     - id: 9
@@ -3769,8 +3721,8 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 132.75233
-        y: 373.66974
+        x: 116.33443
+        y: 463.2219
         width: 160
         height: 30
     - id: 10
@@ -3839,8 +3791,8 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 132.75233
-        y: 423.66974
+        x: 116.33443
+        y: 513.2219
         width: 160
         height: 30
     - id: 11
@@ -3909,8 +3861,8 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 132.75233
-        y: 473.66974
+        x: 116.33443
+        y: 563.2224
         width: 160
         height: 30
     - id: 12
@@ -3977,8 +3929,8 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 132.75233
-        y: 523.66974
+        x: 116.33443
+        y: 613.2224
         width: 160
         height: 30
     - id: 13
@@ -4046,8 +3998,8 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 132.75233
-        y: 573.66974
+        x: 116.33443
+        y: 663.2224
         width: 160
         height: 30
     - id: 14
@@ -4126,8 +4078,8 @@ MonoBehaviour:
       userScript: QTE(0,5,Responds_To_Survival_Prediction,True)
       canvasRect:
         serializedVersion: 2
-        x: 132.75233
-        y: 623.66974
+        x: 116.33443
+        y: 713.2224
         width: 160
         height: 30
     - id: 15
@@ -4194,8 +4146,8 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 82.752335
-        y: 682.18036
+        x: 66.33443
+        y: 771.73303
         width: 160
         height: 30
     - id: 16
@@ -4257,8 +4209,8 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 82.752335
-        y: 732.18036
+        x: 66.33443
+        y: 821.73303
         width: 160
         height: 30
     - id: 17
@@ -4325,8 +4277,8 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 260.4119
-        y: 681.0178
+        x: 243.99397
+        y: 770.57056
         width: 160
         height: 30
     - id: 18
@@ -4387,8 +4339,8 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 256.25525
-        y: 734.11066
+        x: 239.83736
+        y: 823.6633
         width: 160
         height: 30
     - id: 19
@@ -4456,8 +4408,8 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 439.234
-        y: 681.08356
+        x: 422.81604
+        y: 770.6362
         width: 160
         height: 30
     - id: 20
@@ -4518,8 +4470,70 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 440.26492
-        y: 734.1764
+        x: 423.84692
+        y: 823.7291
+        width: 160
+        height: 30
+    - id: 21
+      fields:
+      - title: Title
+        value: New Dialogue Entry
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: 
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: 
+      - title: Menu Text
+        value: No response
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Well, anyway
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: 
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 9
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 403.66974
+        y: 183.91743
         width: 160
         height: 30
   - id: 10
