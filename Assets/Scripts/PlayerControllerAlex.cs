@@ -61,6 +61,8 @@ public class PlayerControllerAlex : MonoBehaviour {
         Vector3 bodyVerticalDirection = GetComponent<Rigidbody>().transform.up;
 
         Vector3 force = bodyForwardDirection * force_constant;
+        
+        if (Input.GetButton("Xbox_360_Back")) { UnityEngine.VR.InputTracking.Recenter(); }
 
         //Thrust left right forward backward
         if (Input.GetAxis("Xbox_360_LeftJoystickX") != 0 || Input.GetAxis("Xbox_360_LeftJoystickY") != 0)
