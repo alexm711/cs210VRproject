@@ -11,7 +11,7 @@ public class ConversationManager : MonoBehaviour {
 	void Update () {
 	    if(Input.GetKey(KeyCode.A) && !conversationPlayed)
         {
-            DialogueManager.Instance.StartConversation("Opening");
+            //DialogueManager.Instance.StartConversation("Opening");
             conversationPlayed = true;
         }
 	}
@@ -29,7 +29,7 @@ public class ConversationManager : MonoBehaviour {
         {
             if(Input.GetKey(KeyCode.A))
             {
-                DialogueManager.Instance.StartConversation("Opening");
+                //DialogueManager.Instance.StartConversation("Opening");
                 respondedInTime = true;
             }
             yield return new WaitForEndOfFrame();
@@ -37,7 +37,7 @@ public class ConversationManager : MonoBehaviour {
 
         if(!respondedInTime)
         {
-            DialogueManager.Instance.StartConversation("Opening");
+            //DialogueManager.Instance.StartConversation("Opening");
         }
     }
 

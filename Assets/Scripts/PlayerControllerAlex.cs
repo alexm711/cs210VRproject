@@ -5,9 +5,11 @@ public class PlayerControllerAlex : MonoBehaviour {
 
 
 
-    public float translation_speed = 5;
-    public float boost_multiplier = 2;
-    public float rotation_speed = 50;
+    public float translation_acceleration = 500f;
+    public float boost_multiplier = 2f;
+    public float rotation_acceleration = 0.2f;
+    public float braking_rotation_threshold = 0.01f;
+    public float braking_translation_threshold = 0.5f;
     //public float roll_magnitude = 50;
     //public float pitch_magnitude = 50;
     //public float yaw_magnitude = 50;
@@ -27,6 +29,7 @@ public class PlayerControllerAlex : MonoBehaviour {
     public AudioClip gameOverSound;
     public AudioClip forwardSound;
     public AudioClip backSound;
+    private Rigidbody rb;
 
 
     // Update is called once per frame
@@ -58,49 +61,85 @@ public class PlayerControllerAlex : MonoBehaviour {
 
     void move2()
     {
+        rb = GetComponent<Rigidbody>();
         Vector3 cameraForwardDirection = GameObject.FindObjectOfType<Camera>().transform.forward;
         Vector3 cameraRightDirection = GameObject.FindObjectOfType<Camera>().transform.right;
-        Vector3 bodyForwardDirection = GetComponent<Rigidbody>().transform.forward;
-        Vector3 bodyRightDirection = GetComponent<Rigidbody>().transform.right;
-        Vector3 bodyVerticalDirection = GetComponent<Rigidbody>().transform.up;
+ 
 
-        Vector3 force = bodyForwardDirection * translation_speed;
-        
+        Vector3 force;
         if (Input.GetButton("Xbox_360_Back")) { UnityEngine.VR.InputTracking.Recenter(); }
 
         //Thrust left right forward backward
         if (Input.GetAxis("Xbox_360_LeftJoystickX") != 0 || Input.GetAxis("Xbox_360_LeftJoystickY") != 0)
         {
-            force = -Input.GetAxis("Xbox_360_LeftJoystickY") * translation_speed * bodyForwardDirection + Input.GetAxis("Xbox_360_LeftJoystickX") * bodyRightDirection * translation_speed;
+            force = (-Input.GetAxis("Xbox_360_LeftJoystickY") * rb.transform.forward + Input.GetAxis("Xbox_360_LeftJoystickX") * rb.transform.right) * 150f * Time.deltaTime;
             force = applyBoost(force);
-            GetComponent<Rigidbody>().AddForce(force);
+            rb.AddForce(force);
             playSound(force);
         }
         //yaw, pitch 
+
         if (Input.GetAxis("Xbox_360_RightJoystickX") != 0 || Input.GetAxis("Xbox_360_RightJoystickY") != 0)
         {
-            float yawTurnSpeed = Input.GetAxis("Xbox_360_RightJoystickX")* 1;
-            float pitchTurnSpeed = Input.GetAxis("Xbox_360_RightJoystickY")* 1;
-            transform.Rotate(Vector3.up* yawTurnSpeed * rotation_speed * Time.deltaTime);
-            transform.Rotate(Vector3.right * pitchTurnSpeed * rotation_speed * Time.deltaTime);
+            //float yawTurnSpeed = Input.GetAxis("Xbox_360_RightJoystickX") * rotation_acceleration * rb.transform.up;
+            //float pitchTurnSpeed = Input.GetAxis("Xbox_360_RightJoystickY") * rotation_acceleration * rb.transform.right;
+            force = (Input.GetAxis("Xbox_360_RightJoystickX")  * rb.transform.up + Input.GetAxis("Xbox_360_RightJoystickY") * rb.transform.right*2)* rotation_acceleration * Time.deltaTime;
+            //rb.AddTorque(transform.up * torque * turn);
+            rb.AddTorque(force);
+            //transform.Rotate(Vector3.up * yawTurnSpeed * rotation_speed * Time.deltaTime);
+            //transform.Rotate(Vector3.right * pitchTurnSpeed * rotation_speed * Time.deltaTime);
             //playSound(force);
         }
+        //if (Input.GetAxis("Xbox_360_RightJoystickX") != 0 || Input.GetAxis("Xbox_360_RightJoystickY") != 0)
+        //{
+        //    float yawTurnSpeed = Input.GetAxis("Xbox_360_RightJoystickX") * 1;
+        //    float pitchTurnSpeed = Input.GetAxis("Xbox_360_RightJoystickY") * 1;
+        //    transform.Rotate(Vector3.up * yawTurnSpeed * rotation_speed * Time.deltaTime);
+        //    transform.Rotate(Vector3.right * pitchTurnSpeed * rotation_speed * Time.deltaTime);
+        //    //playSound(force);
+        //}
         //Air-Braking
-        if (Input.GetButton("Xbox_360_B")) { GetComponent<Rigidbody>().AddForce(applyBoost(GetComponent<Rigidbody>().velocity.normalized) * -translation_speed);}
+        if (Input.GetButton("Xbox_360_B")) {
+            rb.AddForce(applyBoost(rb.velocity.normalized) * -150f * Time.deltaTime);
+            rb.AddTorque(rb.angularVelocity.normalized  * -rotation_acceleration * Time.deltaTime);
+            if (rb.angularVelocity.magnitude < braking_rotation_threshold*0.2f) rb.angularVelocity = Vector3.zero;
+            if (rb.velocity.magnitude < braking_translation_threshold) rb.velocity = Vector3.zero;
+            //Debug.Log(rb.velocity.magnitude);
+            //Debug.Log(rb.angularVelocity.magnitude);
+
+        }
 
         if (Input.GetButtonDown("Xbox_360_Y")){ thrust_up_or_down_flag *= -1;}
 
+        //if (Input.GetButton("Xbox_360_LeftBumper") || Input.GetButton("Xbox_360_RightBumper"))
+        //{
+        //    int leftBoolInt = Input.GetButton("Xbox_360_LeftBumper") ? 1 : 0;
+        //    int rightBoolInt = Input.GetButton("Xbox_360_RightBumper") ? 1 : 0;
+        //    float rollTurnSpeed = (leftBoolInt - rightBoolInt) * rotation_speed;
+        //    transform.Rotate(Vector3.forward * rollTurnSpeed * Time.deltaTime);
+        //    force = Input.GetAxis("Xbox_360_RightJoystickX") * rb.transform.up + Input.GetAxis("Xbox_360_RightJoystickY") * rb.transform.right;
+        //    //rb.AddTorque(transform.up * torque * turn);
+        //    rb.AddTorque(force * 0.05f);
+        //}
         if (Input.GetButton("Xbox_360_LeftBumper") || Input.GetButton("Xbox_360_RightBumper"))
         {
-            int leftBoolInt = Input.GetButton("Xbox_360_LeftBumper") ? 1 : 0;
-            int rightBoolInt = Input.GetButton("Xbox_360_RightBumper") ? 1 : 0;
-            float rollTurnSpeed = (leftBoolInt - rightBoolInt)* rotation_speed;
-            transform.Rotate(Vector3.forward * rollTurnSpeed * Time.deltaTime);
+            float leftBoolInt = Input.GetButton("Xbox_360_LeftBumper") ? 1f : 0;
+            float rightBoolInt = Input.GetButton("Xbox_360_RightBumper") ? 1f : 0;
+            force = rb.transform.forward *2f* (leftBoolInt - rightBoolInt) * Time.deltaTime*rotation_acceleration;
+            rb.AddTorque(force);
+            //force = Input.GetAxis("Xbox_360_RightJoystickX") * rb.transform.up + Input.GetAxis("Xbox_360_RightJoystickY") * rb.transform.right;
+            //rb.AddTorque(transform.up * torque * turn);
+            //rb.AddTorque(force * 0.05f);
         }
 
+
         if (Input.GetButton("Xbox_360_LeftStickClick")) {
-            float y= GetComponent<Rigidbody>().rotation.eulerAngles.y;
-            GetComponent<Rigidbody>().rotation = Quaternion.Slerp(GetComponent<Rigidbody>().rotation, Quaternion.Euler(0,y,0),  0.02f);
+            if (rb.angularVelocity.magnitude > braking_rotation_threshold) rb.AddTorque(rb.angularVelocity.normalized * -rotation_acceleration * Time.deltaTime);
+            else {
+                rb.angularVelocity = Vector3.zero;
+                float y = rb.rotation.eulerAngles.y;
+                rb.rotation = Quaternion.Slerp(rb.rotation, Quaternion.Euler(0, y, 0), 0.02f);
+            }
         }
         if (Input.GetButtonDown("Xbox_360_RightStickClick"))
         {
@@ -108,33 +147,28 @@ public class PlayerControllerAlex : MonoBehaviour {
         }
         if (Input.GetButton("Xbox_360_RightStickClick"))
         {
-            GetComponent<Rigidbody>().rotation = Quaternion.Slerp(GetComponent<Rigidbody>().rotation, camera_rotation,  0.02f);
+            if (rb.angularVelocity.magnitude > braking_rotation_threshold) rb.AddTorque(rb.angularVelocity.normalized * -rotation_acceleration * Time.deltaTime);
+            else {
+                rb.angularVelocity = Vector3.zero;
+                rb.rotation = Quaternion.Slerp(rb.rotation, camera_rotation, 0.02f);
+            }
         }
         if (Input.GetAxis("Xbox_360_RightTrigger") != 0 && Input.GetAxis("Xbox_360_LeftTrigger") < 0.5)
         {
-            Vector3 vertical_force = bodyVerticalDirection * Input.GetAxis("Xbox_360_RightTrigger") *  thrust_up_or_down_flag* translation_speed;
+            Vector3 vertical_force = rb.transform.up * Input.GetAxis("Xbox_360_RightTrigger") *  thrust_up_or_down_flag* translation_acceleration;
             vertical_force = applyBoost(vertical_force);
-            GetComponent<Rigidbody>().AddForce(vertical_force);
+            rb.AddForce(vertical_force);
         }
         if(Input.GetAxis("Xbox_360_LeftTrigger") != 0)
         {
             //Zoom-in function + make cursor visible
         }
-        if (Input.GetKey(KeyCode.DownArrow))
-        {
-            force *= -1;
-            GetComponent<Rigidbody>().AddForce(force);
-        }
+ 
 
-        else if (Input.GetKey(KeyCode.Space))
-        {
-            GetComponent<Rigidbody>().Sleep();
-        }
-
-        else
-        {
-            SoundManager.instance.stopSoundEffect();
-        }
+        //else
+        //{
+        //    SoundManager.instance.stopSoundEffect();
+        //}
     }
 
     void playSound(Vector3 force)
