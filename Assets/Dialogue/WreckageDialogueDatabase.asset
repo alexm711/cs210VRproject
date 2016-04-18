@@ -362,7 +362,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 32
-        y: 74
+        y: 72.86365
         width: 160
         height: 30
     - id: 2
@@ -3065,15 +3065,15 @@ MonoBehaviour:
     - title: Title
       value: Approaching the station wreckage
       type: 0
-      typeString: 
+      typeString: CustomFieldType_Text
     - title: Pictures
       value: '[]'
       type: 3
-      typeString: 
+      typeString: CustomFieldType_Files
     - title: Description
       value: 
       type: 0
-      typeString: 
+      typeString: CustomFieldType_Text
     - title: Actor
       value: 1
       type: 5
@@ -3229,7 +3229,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["Responds_To_Alice"] = "false"
       canvasRect:
         serializedVersion: 2
         x: 30
@@ -3293,19 +3293,13 @@ MonoBehaviour:
       - originConversationID: 9
         originDialogueID: 2
         destinationConversationID: 9
-        destinationDialogueID: 3
-        isConnector: 0
-        priority: 2
-      - originConversationID: 9
-        originDialogueID: 2
-        destinationConversationID: 9
         destinationDialogueID: 4
         isConnector: 0
         priority: 2
       - originConversationID: 9
         originDialogueID: 2
         destinationConversationID: 9
-        destinationDialogueID: 21
+        destinationDialogueID: 3
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -3448,8 +3442,8 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 210.8991
-        y: 180.16515
+        x: 204.71352
+        y: 182.19609
         width: 160
         height: 30
     - id: 5
@@ -3516,8 +3510,8 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 197.39864
-        y: 315.7173
+        x: 213.89348
+        y: 253.8616
         width: 160
         height: 30
     - id: 7
@@ -4029,7 +4023,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "(serious)\r There's a version of this where only one of us..."
+        value: There's a version of this where only one of us...
         type: 0
         typeString: 
       - title: Parenthetical
@@ -4048,6 +4042,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: 
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: 
       conversationID: 9
       isRoot: 0
       isGroup: 0
@@ -4059,13 +4057,13 @@ MonoBehaviour:
       - originConversationID: 9
         originDialogueID: 14
         destinationConversationID: 9
-        destinationDialogueID: 15
+        destinationDialogueID: 17
         isConnector: 0
         priority: 2
       - originConversationID: 9
         originDialogueID: 14
         destinationConversationID: 9
-        destinationDialogueID: 17
+        destinationDialogueID: 15
         isConnector: 0
         priority: 2
       - originConversationID: 9
@@ -4075,7 +4073,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: QTE(0,5,Responds_To_Survival_Prediction,True)
+      userScript: 
       canvasRect:
         serializedVersion: 2
         x: 116.33443
@@ -4146,8 +4144,8 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 66.33443
-        y: 771.73303
+        x: 67.47078
+        y: 772.86945
         width: 160
         height: 30
     - id: 16
@@ -4209,8 +4207,8 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 66.33443
-        y: 821.73303
+        x: 69.74353
+        y: 824.0058
         width: 160
         height: 30
     - id: 17
@@ -4277,8 +4275,8 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 243.99397
-        y: 770.57056
+        x: 239.44853
+        y: 777.3888
         width: 160
         height: 30
     - id: 18
@@ -4339,8 +4337,8 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 239.83736
-        y: 823.6633
+        x: 240.97374
+        y: 829.34515
         width: 160
         height: 30
     - id: 19
@@ -4408,8 +4406,8 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 422.81604
-        y: 770.6362
+        x: 418.27057
+        y: 780.86346
         width: 160
         height: 30
     - id: 20
@@ -4472,68 +4470,6 @@ MonoBehaviour:
         serializedVersion: 2
         x: 423.84692
         y: 823.7291
-        width: 160
-        height: 30
-    - id: 21
-      fields:
-      - title: Title
-        value: New Dialogue Entry
-        type: 0
-        typeString: 
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: 
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: 
-      - title: Conversant
-        value: 2
-        type: 5
-        typeString: 
-      - title: Menu Text
-        value: No response
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: Well, anyway
-        type: 0
-        typeString: 
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: 
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: 
-      - title: Video File
-        value: 
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 9
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks: []
-      conditionsString: 
-      userScript: 
-      canvasRect:
-        serializedVersion: 2
-        x: 403.66974
-        y: 183.91743
         width: 160
         height: 30
   - id: 10
