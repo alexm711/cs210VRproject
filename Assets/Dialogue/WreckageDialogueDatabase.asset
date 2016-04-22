@@ -336,6 +336,8 @@ MonoBehaviour:
       - title: Sequence
         value: 'QTE(0,5,Responds_To_Alice,true)
 
+          Audio(Dialogue/1-5-Alice)
+
 '
         type: 0
         typeString: CustomFieldType_Text
@@ -409,7 +411,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Audio(Dialogue/1-10-Alice)
         type: 0
         typeString: 
       conversationID: 1
@@ -461,7 +463,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Hi?
+        value: '[f]Hi?'
         type: 0
         typeString: 
       - title: Parenthetical
@@ -477,7 +479,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Audio(Dialogue/1-6-Ellie)
+        type: 0
+        typeString: 
+      - title: Response Menu Sequence
+        value: Audio(Dialogue/1-6-Ellie)
         type: 0
         typeString: 
       conversationID: 1
@@ -498,8 +504,8 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 230.13635
-        y: 348.4236
+        x: 231.35587
+        y: 347.2041
         width: 160
         height: 30
     - id: 4
@@ -546,6 +552,10 @@ MonoBehaviour:
         typeString: 
       - title: Sequence
         value: 
+        type: 0
+        typeString: 
+      - title: Response Menu Sequence
+        value: Audio(Dialogue/1-7-Alice)
         type: 0
         typeString: 
       conversationID: 1
@@ -613,7 +623,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Audio(Dialogue/1-11-Ellie)
         type: 0
         typeString: 
       conversationID: 1
@@ -643,44 +653,48 @@ MonoBehaviour:
       - title: Title
         value: New Dialogue Entry
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Pictures
         value: '[]'
         type: 3
-        typeString: 
+        typeString: CustomFieldType_Files
       - title: Description
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Actor
         value: 1
         type: 5
-        typeString: 
+        typeString: CustomFieldType_Actor
       - title: Conversant
         value: 2
         type: 5
-        typeString: 
+        typeString: CustomFieldType_Actor
       - title: Menu Text
         value: '[f] Yes'
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Dialogue Text
         value: I can fly.
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Parenthetical
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Audio Files
         value: '[]'
         type: 3
-        typeString: 
+        typeString: CustomFieldType_Files
       - title: Video File
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Sequence
+        value: Audio(Dialogue/1-8-Ellie)
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Response Menu Sequence
         value: 
         type: 0
         typeString: 
@@ -752,6 +766,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: 
+      - title: Response Menu Sequence
+        value: Audio(Dialogue/1-9-Alice)
+        type: 0
+        typeString: 
       conversationID: 1
       isRoot: 0
       isGroup: 0
@@ -817,7 +835,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Audio(Dialogue/1-12-Alice)
         type: 0
         typeString: 
       conversationID: 1
@@ -975,7 +993,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 28.863632
-        y: 60.90909
+        y: 62.007996
         width: 160
         height: 30
     - id: 11
@@ -1021,7 +1039,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Audio(Dialogue/1-4-Mouseclick)
+        type: 0
+        typeString: 
+      - title: Response Menu Sequence
+        value: Audio(Dialogue/1-4-Mouseclick)
         type: 0
         typeString: 
       conversationID: 1
@@ -1157,7 +1179,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Audio(Dialogue/1-2-XP-Startup)
         type: 0
         typeString: 
       conversationID: 1
