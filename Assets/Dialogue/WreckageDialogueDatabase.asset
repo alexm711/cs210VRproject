@@ -2160,7 +2160,7 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 30
+        x: 25.121956
         y: 124.12372
         width: 160
         height: 30
@@ -2331,7 +2331,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: (dramatically)If you insist.
+        value: So that's what that was
         type: 0
         typeString: 
       - title: Parenthetical
@@ -2347,7 +2347,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: AudioWait(Dialogue/4-5-Ellie)
+        value: AudioWait(Dialogue/4-5-Ellie-Redo)
         type: 0
         typeString: 
       conversationID: 7
@@ -2368,7 +2368,7 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 33.09279
+        x: 34.462646
         y: 274.12372
         width: 160
         height: 30
@@ -2399,7 +2399,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: So...you know what to do now?
+        value: You should take survival more seriously
         type: 0
         typeString: 
       - title: Parenthetical
@@ -2415,7 +2415,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Dialogue/4-6-Alice-Redo)
         type: 0
         typeString: 
       conversationID: 7
@@ -2467,7 +2467,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Sure, just want to make sure we're on the same page.
+        value: Keeping morale up. What are we looking for?
         type: 0
         typeString: 
       - title: Parenthetical
@@ -2483,7 +2483,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Dialogue/4-7-Alice-Redo)
         type: 0
         typeString: 
       conversationID: 7
@@ -2647,7 +2647,7 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 1.1340332
+        x: 1
         y: 477.2165
         width: 160
         height: 30
@@ -2715,8 +2715,8 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 174.3299
-        y: 476.18555
+        x: 171.79825
+        y: 477.45142
         width: 160
         height: 30
     - id: 11
@@ -2846,8 +2846,8 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 174.3299
-        y: 576.18555
+        x: 177.98843
+        y: 574.966
         width: 160
         height: 30
     - id: 13
@@ -4249,7 +4249,8 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: "Which is A LOT apparently. Ok, well, so we only have a few hours of
-          air correct? And rescue is, I don't know, at least 6 hours away right? \r"
+          air correct? And rescue is, I don't know, at least 6 hours away right? \r*sigh*
+          There's a version of this where only one of us..."
         type: 0
         typeString: 
       - title: Parenthetical
@@ -4279,89 +4280,17 @@ MonoBehaviour:
       - originConversationID: 9
         originDialogueID: 13
         destinationConversationID: 9
-        destinationDialogueID: 14
+        destinationDialogueID: 15
         isConnector: 0
         priority: 2
-      conditionsString: 
-      userScript: 
-      canvasRect:
-        serializedVersion: 2
-        x: 116.33443
-        y: 663.2224
-        width: 160
-        height: 30
-    - id: 14
-      fields:
-      - title: Title
-        value: New Dialogue Entry
-        type: 0
-        typeString: 
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: 
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 2
-        type: 5
-        typeString: 
-      - title: Conversant
-        value: 1
-        type: 5
-        typeString: 
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: There's a version of this where only one of us...
-        type: 0
-        typeString: 
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: 
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: 
-      - title: Video File
-        value: 
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      - title: Response Menu Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 9
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
       - originConversationID: 9
-        originDialogueID: 14
+        originDialogueID: 13
         destinationConversationID: 9
         destinationDialogueID: 17
         isConnector: 0
         priority: 2
       - originConversationID: 9
-        originDialogueID: 14
-        destinationConversationID: 9
-        destinationDialogueID: 15
-        isConnector: 0
-        priority: 2
-      - originConversationID: 9
-        originDialogueID: 14
+        originDialogueID: 13
         destinationConversationID: 9
         destinationDialogueID: 19
         isConnector: 0
@@ -4371,7 +4300,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 116.33443
-        y: 713.2224
+        y: 663.2224
         width: 160
         height: 30
     - id: 15
@@ -4417,7 +4346,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: AudioWait(Dialogue/6-15-Ellie)
+        value: AudioWait(Dialogue/6-15a-Ellie)
         type: 0
         typeString: 
       conversationID: 9
@@ -4486,7 +4415,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: AudioWait(Dialogue/6-16-Alice)
+        value: AudioWait(Dialogue/6-16a-Alice)
         type: 0
         typeString: 
       conversationID: 9
@@ -4501,8 +4430,8 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 69.74353
-        y: 824.0058
+        x: 65.26593
+        y: 825.4983
         width: 160
         height: 30
     - id: 17
@@ -4548,7 +4477,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Dialogue/6-15b-Ellie)
         type: 0
         typeString: 
       conversationID: 9
@@ -4616,7 +4545,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: AudioWait(Dialogue/6-18-Alice)
+        value: AudioWait(Dialogue/6-16b-Alice)
+        type: 0
+        typeString: 
+      - title: Response Menu Sequence
+        value: 
         type: 0
         typeString: 
       conversationID: 9
@@ -4679,7 +4612,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: AudioWait(6-19-Ellie)
+        value: AudioWait(Dialogue/6-15c-Ellie)
         type: 0
         typeString: 
       conversationID: 9
@@ -4700,7 +4633,7 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 418.27057
+        x: 416.778
         y: 780.86346
         width: 160
         height: 30
@@ -4747,7 +4680,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: AudioWait(Dialogue/6-20-Alice)
+        value: AudioWait(Dialogue/6-16c-Alice)
         type: 0
         typeString: 
       conversationID: 9
@@ -4762,8 +4695,8 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 423.84692
-        y: 823.7291
+        x: 420.86185
+        y: 832.6843
         width: 160
         height: 30
   - id: 10
@@ -4917,7 +4850,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Dialogue/7-1-Alice)
         type: 0
         typeString: 
       conversationID: 10
