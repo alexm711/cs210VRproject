@@ -334,9 +334,9 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: 'QTE(0,5,Responds_To_Alice,true)
+        value: 'QTE(0,5,Responds_To_Alice,true);
 
-          Audio(Dialogue/1-5-Alice)
+          AudioWait(Dialogue/1-5-Alice)
 
 '
         type: 0
@@ -411,7 +411,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: Audio(Dialogue/1-10-Alice)
+        value: AudioWait(Dialogue/1-10-Alice)
         type: 0
         typeString: 
       conversationID: 1
@@ -463,7 +463,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: '[f]Hi?'
+        value: Hi?
         type: 0
         typeString: 
       - title: Parenthetical
@@ -479,11 +479,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: Audio(Dialogue/1-6-Ellie)
+        value: AudioWait(Dialogue/1-6-Ellie);
         type: 0
         typeString: 
       - title: Response Menu Sequence
-        value: Audio(Dialogue/1-6-Ellie)
+        value: 
         type: 0
         typeString: 
       conversationID: 1
@@ -551,11 +551,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Dialogue/1-7-Alice)
         type: 0
         typeString: 
       - title: Response Menu Sequence
-        value: Audio(Dialogue/1-7-Alice)
+        value: 
         type: 0
         typeString: 
       conversationID: 1
@@ -623,7 +623,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: Audio(Dialogue/1-11-Ellie)
+        value: AudioWait(Dialogue/1-11-Ellie)
         type: 0
         typeString: 
       conversationID: 1
@@ -691,7 +691,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: Audio(Dialogue/1-8-Ellie)
+        value: AudioWait(Dialogue/1-8-Ellie)
         type: 0
         typeString: CustomFieldType_Text
       - title: Response Menu Sequence
@@ -763,11 +763,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Dialogue/1-9-Alice)
         type: 0
         typeString: 
       - title: Response Menu Sequence
-        value: Audio(Dialogue/1-9-Alice)
+        value: 
         type: 0
         typeString: 
       conversationID: 1
@@ -835,7 +835,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: Audio(Dialogue/1-12-Alice)
+        value: AudioWait(Dialogue/1-12-Alice)
         type: 0
         typeString: 
       conversationID: 1
@@ -1039,11 +1039,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: Audio(Dialogue/1-4-Mouseclick)
+        value: AudioWait(Dialogue/1-4-Mouseclick)
         type: 0
         typeString: 
       - title: Response Menu Sequence
-        value: Audio(Dialogue/1-4-Mouseclick)
+        value: 
         type: 0
         typeString: 
       conversationID: 1
@@ -1179,7 +1179,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: Audio(Dialogue/1-2-XP-Startup)
+        value: AudioWait(Dialogue/1-2-XP-Startup)
         type: 0
         typeString: 
       conversationID: 1

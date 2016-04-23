@@ -7155,6 +7155,8 @@ MonoBehaviour:
   rotation_acceleration: 5
   braking_rotation_threshold: 0.5
   braking_translation_threshold: 0.5
+  allowRoll: 1
+  allowPitch: 1
   braking_magnitude: 5
   brake_sleep_threshold: 0.25
   camera_body_reorientation_time: 1

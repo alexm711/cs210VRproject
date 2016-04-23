@@ -10,6 +10,8 @@ public class PlayerControllerAlex : MonoBehaviour {
     public float rotation_acceleration = 0.2f;
     public float braking_rotation_threshold = 0.01f;
     public float braking_translation_threshold = 0.5f;
+	public bool allowRoll = true;
+	public bool allowPitch = true;
     //public float roll_magnitude = 50;
     //public float pitch_magnitude = 50;
     //public float yaw_magnitude = 50;
