@@ -2487,7 +2487,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: AudioWait(Dialogue/4-7-Alice-Redo)
+        value: AudioWait(Dialogue/4-7-Ellie-Redo)
         type: 0
         typeString: 
       conversationID: 7
@@ -2508,7 +2508,7 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 33.09279
+        x: 31.993896
         y: 374.12372
         width: 160
         height: 30
