@@ -92,6 +92,9 @@ public class PlayerControllerAlex : MonoBehaviour {
 
 	}
 
+	void PickUpObject(){
+		
+	}
     void move2()
     {
         rb = GetComponent<Rigidbody>();
@@ -111,7 +114,6 @@ public class PlayerControllerAlex : MonoBehaviour {
 //				rb.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationX;
 				rb.freezeRotation = false;
 
-
 				fix_to_floor = false;
 			}
 			if (Input.GetAxis ("Xbox_360_LeftJoystickX") != 0 || Input.GetAxis ("Xbox_360_LeftJoystickY") != 0) {
@@ -127,6 +129,7 @@ public class PlayerControllerAlex : MonoBehaviour {
 				float yaw = Input.GetAxis ("Xbox_360_RightJoystickX") * 1;
 //				rb.angularVelocity = (rb.transform.up * yaw) * rotation_velocity * Time.deltaTime;
 				transform.RotateAround(transform.position, transform.up, ( yaw) * rotation_velocity * Time.deltaTime );
+				rb.angularVelocity = Vector3.zero;
 //				transform.Rotate(rb.transform.up * yaw * rotation_velocity * Time.deltaTime);
 //				rb.angularVelocity
 //				rb.rotation = transform.rotation;
@@ -291,6 +294,7 @@ public class PlayerControllerAlex : MonoBehaviour {
 			}
 			if (Input.GetAxis ("Xbox_360_LeftTrigger") != 0) {
 				//Zoom-in function + make cursor visible
+				PickUpObject();
 			}
 		}
 
