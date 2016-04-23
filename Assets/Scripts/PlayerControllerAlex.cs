@@ -5,13 +5,18 @@ public class PlayerControllerAlex : MonoBehaviour {
 
 
 
-    public float translation_acceleration = 500f;
-    public float boost_multiplier = 2f;
-    public float rotation_acceleration = 0.2f;
-    public float braking_rotation_threshold = 0.01f;
-    public float braking_translation_threshold = 0.5f;
-	public bool allowRoll = true;
-	public bool allowPitch = true;
+    public static float translation_acceleration = 150f;
+    public static float boost_multiplier = 2f;
+    public static float rotation_acceleration = 15f;
+	public static bool allowRoll = true;
+	public static bool allowPitch = true;
+	public static bool invert_yaxis = false;
+	public static bool classic_mode = false;
+	public static float rotation_velocity = 60f;
+	private bool fix_to_floor = false;
+
+	public float braking_rotation_threshold = 0.003f;
+	public float braking_translation_threshold = 0.05f;
     //public float roll_magnitude = 50;
     //public float pitch_magnitude = 50;
     //public float yaw_magnitude = 50;
@@ -74,7 +79,7 @@ public class PlayerControllerAlex : MonoBehaviour {
         //Thrust left right forward backward
         if (Input.GetAxis("Xbox_360_LeftJoystickX") != 0 || Input.GetAxis("Xbox_360_LeftJoystickY") != 0)
         {
-            force = (-Input.GetAxis("Xbox_360_LeftJoystickY") * rb.transform.forward + Input.GetAxis("Xbox_360_LeftJoystickX") * rb.transform.right) * 150f * Time.deltaTime;
+			force = (-Input.GetAxis("Xbox_360_LeftJoystickY") * rb.transform.forward + Input.GetAxis("Xbox_360_LeftJoystickX") * rb.transform.right) * translation_acceleration * Time.deltaTime;
             force = applyBoost(force);
             rb.AddForce(force);
             playSound(force);
@@ -85,9 +90,20 @@ public class PlayerControllerAlex : MonoBehaviour {
         {
             //float yawTurnSpeed = Input.GetAxis("Xbox_360_RightJoystickX") * rotation_acceleration * rb.transform.up;
             //float pitchTurnSpeed = Input.GetAxis("Xbox_360_RightJoystickY") * rotation_acceleration * rb.transform.right;
-            force = (Input.GetAxis("Xbox_360_RightJoystickX")  * rb.transform.up + Input.GetAxis("Xbox_360_RightJoystickY") * rb.transform.right*2)* rotation_acceleration * Time.deltaTime;
-            //rb.AddTorque(transform.up * torque * turn);
-            rb.AddTorque(force);
+			if (classic_mode == true) {
+				float yaw = Input.GetAxis("Xbox_360_RightJoystickX") * 1;
+			    float pitch = Input.GetAxis("Xbox_360_RightJoystickY") * 1;
+				rb.angularVelocity = (rb.transform.up * yaw + rb.transform.right * pitch)  * rotation_velocity * Time.deltaTime;
+//				transform.Rotate(Vector3.right *pitch +  * rotation_velocity * Time.deltaTime);
+				    //playSound(force);
+			} else {
+				int invert = invert_yaxis ? -1 : 1; 
+				int pitch = allowPitch ? 1 : 0;
+				force = (Input.GetAxis ("Xbox_360_RightJoystickX") * rb.transform.up + pitch * invert * Input.GetAxis ("Xbox_360_RightJoystickY") * rb.transform.right * 2) * rotation_acceleration * Time.deltaTime;
+				//rb.AddTorque(transform.up * torque * turn);
+				force = applyBoost (force);
+				rb.AddTorque (force);
+			}
             //transform.Rotate(Vector3.up * yawTurnSpeed * rotation_speed * Time.deltaTime);
             //transform.Rotate(Vector3.right * pitchTurnSpeed * rotation_speed * Time.deltaTime);
             //playSound(force);
@@ -102,9 +118,9 @@ public class PlayerControllerAlex : MonoBehaviour {
         //}
         //Air-Braking
         if (Input.GetButton("Xbox_360_B")) {
-            rb.AddForce(applyBoost(rb.velocity.normalized) * -150f * Time.deltaTime);
+			rb.AddForce(applyBoost(rb.velocity.normalized) * -translation_acceleration * Time.deltaTime);
             rb.AddTorque(rb.angularVelocity.normalized  * -rotation_acceleration * Time.deltaTime);
-            if (rb.angularVelocity.magnitude < braking_rotation_threshold*0.2f) rb.angularVelocity = Vector3.zero;
+            if (rb.angularVelocity.magnitude < braking_rotation_threshold) rb.angularVelocity = Vector3.zero;
             if (rb.velocity.magnitude < braking_translation_threshold) rb.velocity = Vector3.zero;
             //Debug.Log(rb.velocity.magnitude);
             //Debug.Log(rb.angularVelocity.magnitude);
@@ -123,7 +139,7 @@ public class PlayerControllerAlex : MonoBehaviour {
         //    //rb.AddTorque(transform.up * torque * turn);
         //    rb.AddTorque(force * 0.05f);
         //}
-        if (Input.GetButton("Xbox_360_LeftBumper") || Input.GetButton("Xbox_360_RightBumper"))
+		if (allowRoll && (Input.GetButton("Xbox_360_LeftBumper") || Input.GetButton("Xbox_360_RightBumper")))
         {
             float leftBoolInt = Input.GetButton("Xbox_360_LeftBumper") ? 1f : 0;
             float rightBoolInt = Input.GetButton("Xbox_360_RightBumper") ? 1f : 0;
@@ -140,7 +156,7 @@ public class PlayerControllerAlex : MonoBehaviour {
             else {
                 rb.angularVelocity = Vector3.zero;
                 float y = rb.rotation.eulerAngles.y;
-                rb.rotation = Quaternion.Slerp(rb.rotation, Quaternion.Euler(0, y, 0), 0.02f);
+                rb.rotation = Quaternion.Slerp(rb.rotation, Quaternion.Euler(0, y, 0), 0.01f);
             }
         }
         if (Input.GetButtonDown("Xbox_360_RightStickClick"))
@@ -152,12 +168,12 @@ public class PlayerControllerAlex : MonoBehaviour {
             if (rb.angularVelocity.magnitude > braking_rotation_threshold) rb.AddTorque(rb.angularVelocity.normalized * -rotation_acceleration * Time.deltaTime);
             else {
                 rb.angularVelocity = Vector3.zero;
-                rb.rotation = Quaternion.Slerp(rb.rotation, camera_rotation, 0.02f);
+				rb.rotation = Quaternion.Slerp(rb.rotation, camera_rotation, 0.01f);
             }
         }
         if (Input.GetAxis("Xbox_360_RightTrigger") != 0 && Input.GetAxis("Xbox_360_LeftTrigger") < 0.5)
         {
-            Vector3 vertical_force = rb.transform.up * Input.GetAxis("Xbox_360_RightTrigger") *  thrust_up_or_down_flag* translation_acceleration;
+			Vector3 vertical_force = rb.transform.up * Input.GetAxis("Xbox_360_RightTrigger") *  thrust_up_or_down_flag* translation_acceleration* Time.deltaTime;
             vertical_force = applyBoost(vertical_force);
             rb.AddForce(vertical_force);
         }

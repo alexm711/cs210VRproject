@@ -207,10 +207,10 @@ MonoBehaviour:
       typeString: CustomFieldType_Actor
     overrideSettings:
       useOverrides: 1
-      overrideSubtitleSettings: 0
+      overrideSubtitleSettings: 1
       showNPCSubtitlesDuringLine: 1
       showNPCSubtitlesWithResponses: 1
-      showPCSubtitlesDuringLine: 0
+      showPCSubtitlesDuringLine: 1
       subtitleCharsPerSecond: 30
       minSubtitleSeconds: 2
       continueButton: 0
@@ -266,7 +266,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: None()
+        value: Delay(5);
         type: 0
         typeString: CustomFieldType_Text
       conversationID: 1
@@ -797,45 +797,49 @@ MonoBehaviour:
       - title: Title
         value: New Dialogue Entry
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Pictures
         value: '[]'
         type: 3
-        typeString: 
+        typeString: CustomFieldType_Files
       - title: Description
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Actor
         value: 2
         type: 5
-        typeString: 
+        typeString: CustomFieldType_Actor
       - title: Conversant
         value: 1
         type: 5
-        typeString: 
+        typeString: CustomFieldType_Actor
       - title: Menu Text
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Dialogue Text
         value: Let me know when you're all reoriented then
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Parenthetical
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Audio Files
         value: '[]'
         type: 3
-        typeString: 
+        typeString: CustomFieldType_Files
       - title: Video File
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Sequence
-        value: AudioWait(Dialogue/1-12-Alice)
+        value: AudioWait(Dialogue/1-12-Alice); Delay(5);Fade(out);
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Response Menu Sequence
+        value: 
         type: 0
         typeString: 
       conversationID: 1
@@ -992,7 +996,7 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 28.863632
+        x: 26.863632
         y: 62.007996
         width: 160
         height: 30
@@ -1179,7 +1183,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: AudioWait(Dialogue/1-2-XP-Startup)
+        value: AudioWait(Dialogue/1-2-XP-Startup); Fade(out);
         type: 0
         typeString: 
       conversationID: 1
@@ -2579,8 +2583,8 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 33.09279
-        y: 424.12372
+        x: 34.3123
+        y: 422.90424
         width: 160
         height: 30
     - id: 9
@@ -3737,7 +3741,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 204.71352
-        y: 182.19609
+        y: 181.05974
         width: 160
         height: 30
     - id: 5
@@ -4002,7 +4006,7 @@ MonoBehaviour:
       - originConversationID: 9
         originDialogueID: 9
         destinationConversationID: 9
-        destinationDialogueID: 10
+        destinationDialogueID: 21
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -4072,15 +4076,15 @@ MonoBehaviour:
       - originConversationID: 9
         originDialogueID: 10
         destinationConversationID: 9
-        destinationDialogueID: 11
+        destinationDialogueID: 22
         isConnector: 0
         priority: 2
       conditionsString: 
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 116.33443
-        y: 513.2219
+        x: 115.406784
+        y: 556.96967
         width: 160
         height: 30
     - id: 11
@@ -4149,8 +4153,8 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 116.33443
-        y: 563.2224
+        x: 107.24353
+        y: 655.94965
         width: 160
         height: 30
     - id: 12
@@ -4217,8 +4221,8 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 116.33443
-        y: 613.2224
+        x: 107.24353
+        y: 705.94965
         width: 160
         height: 30
     - id: 13
@@ -4274,9 +4278,15 @@ MonoBehaviour:
       isGroup: 0
       nodeColor: 
       delaySimStatus: 0
-      falseConditionAction: Block
+      falseConditionAction: Passthrough
       conditionPriority: 2
       outgoingLinks:
+      - originConversationID: 9
+        originDialogueID: 13
+        destinationConversationID: 9
+        destinationDialogueID: 23
+        isConnector: 0
+        priority: 2
       - originConversationID: 9
         originDialogueID: 13
         destinationConversationID: 9
@@ -4299,8 +4309,8 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 116.33443
-        y: 663.2224
+        x: 107.24353
+        y: 766.07623
         width: 160
         height: 30
     - id: 15
@@ -4363,12 +4373,12 @@ MonoBehaviour:
         destinationDialogueID: 16
         isConnector: 0
         priority: 2
-      conditionsString: Variable["Responds_To_Survival_Prediction"] == true
+      conditionsString: 
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 67.47078
-        y: 772.86945
+        x: 207.74689
+        y: 868.1283
         width: 160
         height: 30
     - id: 16
@@ -4430,8 +4440,8 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 65.26593
-        y: 825.4983
+        x: 208.07368
+        y: 920.75714
         width: 160
         height: 30
     - id: 17
@@ -4494,12 +4504,12 @@ MonoBehaviour:
         destinationDialogueID: 18
         isConnector: 0
         priority: 2
-      conditionsString: Variable["Responds_To_Survival_Prediction"] == true
+      conditionsString: 
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 239.44853
-        y: 777.3888
+        x: 382.2563
+        y: 872.64764
         width: 160
         height: 30
     - id: 18
@@ -4564,8 +4574,8 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 240.97374
-        y: 829.34515
+        x: 383.7815
+        y: 924.604
         width: 160
         height: 30
     - id: 19
@@ -4629,12 +4639,12 @@ MonoBehaviour:
         destinationDialogueID: 20
         isConnector: 0
         priority: 2
-      conditionsString: Variable["Responds_To_Survival_Prediction"] == true
+      conditionsString: 
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 416.778
-        y: 780.86346
+        x: 559.5858
+        y: 876.1223
         width: 160
         height: 30
     - id: 20
@@ -4695,8 +4705,278 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 420.86185
-        y: 832.6843
+        x: 563.6696
+        y: 927.9432
+        width: 160
+        height: 30
+    - id: 21
+      fields:
+      - title: Title
+        value: New Dialogue Entry
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: 
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: 
+      - title: Menu Text
+        value: '[f]*Don''t Respond*'
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: 
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 9
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 9
+        originDialogueID: 21
+        destinationConversationID: 9
+        destinationDialogueID: 10
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 118.389694
+        y: 507.0481
+        width: 160
+        height: 30
+    - id: 22
+      fields:
+      - title: Title
+        value: New Dialogue Entry
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: 
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: 
+      - title: Menu Text
+        value: '[f]*Still don''t feel like it...*'
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: 
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 9
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 9
+        originDialogueID: 22
+        destinationConversationID: 9
+        destinationDialogueID: 11
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 110.143616
+        y: 606.96967
+        width: 160
+        height: 30
+    - id: 23
+      fields:
+      - title: Title
+        value: New Dialogue Entry
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: 
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: 
+      - title: Menu Text
+        value: '...'
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: 
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 9
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 9
+        originDialogueID: 23
+        destinationConversationID: 9
+        destinationDialogueID: 24
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 28.76255
+        y: 869.2408
+        width: 160
+        height: 30
+    - id: 24
+      fields:
+      - title: Title
+        value: New Dialogue Entry
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: 
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: 
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: 
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: AudioWait(Dialogue/6-16o-Ellie)
+        type: 0
+        typeString: 
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 9
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 28.76255
+        y: 919.2408
         width: 160
         height: 30
   - id: 10
@@ -4850,7 +5130,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: AudioWait(Dialogue/7-1-Alice)
+        value: AudioWait(Dialogue/7-1-Ellie)
         type: 0
         typeString: 
       conversationID: 10
