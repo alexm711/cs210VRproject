@@ -535,7 +535,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Do you not...Tell me, can you move?
+        value: Do you not... Tell me, can you move?
         type: 0
         typeString: 
       - title: Parenthetical
@@ -819,7 +819,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: Let me know when you're all reoriented then
+        value: Let me know when you're all reoriented then.
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -1167,7 +1167,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: '*The spritely caw of Windows XP*'
+        value: '*the spritely caw of Windows XP*'
         type: 0
         typeString: 
       - title: Parenthetical
@@ -1701,7 +1701,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: No, you're still in the hull
+        value: No, you're still in the hull.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -1763,7 +1763,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Hmm...you're starting to make me question your judgement
+        value: Hmm... you're starting to make me question your judgement.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -1887,7 +1887,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: I'm...going to stop humoring you...
+        value: I'm... going to stop humoring you...
         type: 0
         typeString: 
       - title: Parenthetical
@@ -2057,7 +2057,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: O.K., so what's going on?
+        value: OK, so what's going on?
         type: 0
         typeString: 
       - title: Parenthetical
@@ -2335,7 +2335,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: So that's what that was
+        value: So that's what that was.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -2403,7 +2403,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: You should take survival more seriously
+        value: You should take survival more seriously.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -2540,7 +2540,7 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: "I suppose a welding unit, precision diamond burr, and filler of chopped
-          silica fibers with an epoxy binder.\r\n"
+          silica fibers with an epoxy binder.\r"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -2682,7 +2682,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Sorry, you were cutting out
+        value: Sorry, you were cutting out.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -3771,7 +3771,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Hahaha...no. Anyway
+        value: Hahaha... no. Anyways.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -3839,7 +3839,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Well first we took a rocket up to the moon.\r"
+        value: "Well, first we took a rocket up to the moon.\r"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -3975,7 +3975,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: We'll skip ahead then. We rode the lunar elevator up and...that was
+        value: We'll skip ahead then. We rode the lunar elevator up and... that was
           another joke. I thought you'd --
         type: 0
         typeString: 
@@ -4044,7 +4044,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: OH...That's not good. Well, ok. For the record, you were the expert
+        value: OH... That's not good. Well, ok. For the record, you were the expert
           here. I'm just a media personality who's done so well for herself she can
           pretty much fund this entire mission.
         type: 0
@@ -4114,7 +4114,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Oh, this is REALLY not good. Do you...you're our best chance to get
+        value: Oh, this is REALLY not good. Do you... you're our best chance to get
           out of here. I mean the stuff about the helmet repair epoxy, YOU said that.
           This isn't good.
         type: 0
@@ -4309,7 +4309,7 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 107.24353
+        x: 108.88287
         y: 766.07623
         width: 160
         height: 30
@@ -4539,7 +4539,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "(solemn)\r Well...hopefully it doesn't come down to that..."
+        value: "(solemn)\r Well... hopefully it doesn't come down to that..."
         type: 0
         typeString: 
       - title: Parenthetical
