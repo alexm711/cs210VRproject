@@ -1461,7 +1461,8 @@ MonoBehaviour:
     luaConditions: []
     questConditions: []
     acceptedTags: []
-    acceptedGameObjects: []
+    acceptedGameObjects:
+    - {fileID: 1760549606}
     luaWizardIndex: -1
   skipIfNoValidEntries: 0
   exclusive: 1
@@ -6935,7 +6936,8 @@ MonoBehaviour:
     luaConditions: []
     questConditions: []
     acceptedTags: []
-    acceptedGameObjects: []
+    acceptedGameObjects:
+    - {fileID: 1760549606}
     luaWizardIndex: -1
   skipIfNoValidEntries: 0
   exclusive: 0
@@ -10071,7 +10073,8 @@ MonoBehaviour:
     luaConditions: []
     questConditions: []
     acceptedTags: []
-    acceptedGameObjects: []
+    acceptedGameObjects:
+    - {fileID: 1760549606}
     luaWizardIndex: -1
   skipIfNoValidEntries: 0
   exclusive: 1
