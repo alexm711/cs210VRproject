@@ -93,6 +93,7 @@ public class PlayerControllerAlex : MonoBehaviour {
 		
     void translationalMovement(Rigidbody rb)
     {
+        //Up and down
         if ((Input.GetAxis("Xbox_360_RightTrigger") != 0) != (Input.GetAxis("Xbox_360_LeftTrigger") != 0)) {
             Vector3 magnitude = rb.transform.up * (Input.GetAxis("Xbox_360_RightTrigger") - Input.GetAxis("Xbox_360_LeftTrigger"))  * Time.deltaTime;
 
@@ -104,6 +105,7 @@ public class PlayerControllerAlex : MonoBehaviour {
         }
         else if (fixed_linear_speed == true){ rb.velocity = Vector3.zero; }
 
+        // Forward, backward, left, right
         if (Input.GetAxis("Xbox_360_LeftJoystickX") != 0 || Input.GetAxis("Xbox_360_LeftJoystickY") != 0)
         {
             Vector3 magnitude_vector = (-Input.GetAxis("Xbox_360_LeftJoystickY") * rb.transform.forward + Input.GetAxis("Xbox_360_LeftJoystickX") * rb.transform.right) * Time.deltaTime;

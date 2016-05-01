@@ -1,0 +1,59 @@
+Asteroids
+
+This package contains 10 different meteorit stons.
+High-res asteroids with normal maps.
+Also suitable for a ground assets system.
+
+Have fun!
+
+Maps:2048x2048 png
+diffuse
+normal
+
+a1_5
+poly:479
+verts:480
+
+a1_4
+poly:536
+verts:529
+
+a1_3
+poly:421
+verts:405
+
+a1_2
+poly:295
+verts:288
+
+a1_1
+poly:100
+verts:102
+
+
+a2_5
+poly:558
+verts:550
+
+a2_4
+poly:294
+verts:291
+
+a2_3
+poly:129
+verts:128
+
+a2_2
+poly:228
+verts:226
+
+a2_1
+poly:75
+verts:77
+
+a3
+
+poly:356
+verts:348
+
+contakt:brudva@gmail.com
