@@ -2,9 +2,6 @@
 using System.Collections;
 
 public class PlayerControllerAlex : MonoBehaviour {
-
-
-
     public static float translation_acceleration = 150f;
     public static float boost_multiplier = 2f;
     public static float rotation_acceleration = 10f;
@@ -19,7 +16,6 @@ public class PlayerControllerAlex : MonoBehaviour {
     private bool fix_to_floor = false;
 	private GameObject closestGravityWell;
 	private Vector3 surfaceNormal;
-	private float distGround;
 
 	private float transition_downtime, transition_uptime, pressTime = 0f;
 	private float transition_delta = 1.0f;
@@ -36,6 +32,13 @@ public class PlayerControllerAlex : MonoBehaviour {
     public float brake_sleep_threshold = 0.25f;
     public float camera_body_reorientation_time = 1;
     public float world_reorientation_time = 1;
+
+    private float gravity = 1f;
+    private float slerpSpeed = 10;
+    private float deltaGround = 0.1f;
+    private float distGround = 1f;
+    private float maxGroundDistance = 10f;
+    private bool detach = false;
     //public float vertical_boost_thrust = 5;
     //public float thrust_up_or_down_flag = 1;
     private Vector3 movementVector;
@@ -53,9 +56,7 @@ public class PlayerControllerAlex : MonoBehaviour {
     // Update is called once per frame
     void Update() {
         if (!navigationDisabled) {
-            if (mapping1) {
-                move2();
-            }
+            move();
         }
     }
 
@@ -91,69 +92,48 @@ public class PlayerControllerAlex : MonoBehaviour {
 
 	//void PickUpObject(){}
 		
-    void translationalMovement(Rigidbody rb)
+    void translationalMovement(Rigidbody rb, bool touching_floor = false)
     {
         //Up and down
-        if ((Input.GetAxis("Xbox_360_RightTrigger") != 0) != (Input.GetAxis("Xbox_360_LeftTrigger") != 0)) {
-            Vector3 magnitude = rb.transform.up * (Input.GetAxis("Xbox_360_RightTrigger") - Input.GetAxis("Xbox_360_LeftTrigger"))  * Time.deltaTime;
-
-            if (fixed_linear_speed == true)  {
+        float rt = Input.GetAxis("Xbox_360_RightTrigger");
+        float lt = Input.GetAxis("Xbox_360_LeftTrigger");
+        float lsx = Input.GetAxis("Xbox_360_LeftJoystickX");
+        float lsy = Input.GetAxis("Xbox_360_LeftJoystickY");
+        if (((rt != 0) != (lt != 0)) || (lsx != 0 || lsy != 0)) {
+            Vector3 magnitude = (rb.transform.up * (rt - lt) + (-lsy * rb.transform.forward + lsx * rb.transform.right)) * Time.deltaTime;
+            if (fixed_linear_speed == true || (fix_to_floor && touching_floor))  {
                 rb.velocity = applyBoost(magnitude * translation_velocity);
             } else {
                 rb.AddForce(applyBoost(magnitude * translation_acceleration));
             }
+            playSound(magnitude,true);
         }
-        else if (fixed_linear_speed == true){ rb.velocity = Vector3.zero; }
-
-        // Forward, backward, left, right
-        if (Input.GetAxis("Xbox_360_LeftJoystickX") != 0 || Input.GetAxis("Xbox_360_LeftJoystickY") != 0)
-        {
-            Vector3 magnitude_vector = (-Input.GetAxis("Xbox_360_LeftJoystickY") * rb.transform.forward + Input.GetAxis("Xbox_360_LeftJoystickX") * rb.transform.right) * Time.deltaTime;
-            if (fixed_linear_speed == true)  {
-                rb.velocity = applyBoost(magnitude_vector * translation_velocity) + rb.velocity;
-            }
-            else {
-                rb.AddForce(applyBoost(magnitude_vector * translation_acceleration));
-                //playSound(force);
-            }
-        }
+        else if (fixed_linear_speed == true || (fix_to_floor && touching_floor)) { rb.velocity = Vector3.zero; }
     }
-    void rotationalMovement(Rigidbody rb)
+    void rotationalMovement(Rigidbody rb, bool touching_floor = false)
     {
         Vector3 force;
-        if (allowRoll && (Input.GetButton("Xbox_360_LeftBumper") || Input.GetButton("Xbox_360_RightBumper")))  {
-            float leftBoolInt = Input.GetButton("Xbox_360_LeftBumper") ? 1f : 0;
-            float rightBoolInt = Input.GetButton("Xbox_360_RightBumper") ? 1f : 0;
-            force = rb.transform.forward * 2f * (leftBoolInt - rightBoolInt) * Time.deltaTime ;
-            if (fixed_angular_speed == true) {
-                rb.angularVelocity = force * rotation_velocity * 0.4f;
-            } else {
+        float rsx = Input.GetAxis("Xbox_360_RightJoystickX");
+        int invert = invert_yaxis ? -1 : 1;
+        float rsy = allowPitch ? invert*Input.GetAxis("Xbox_360_RightJoystickY"): 0;
+        float leftBoolInt = Input.GetButton("Xbox_360_LeftBumper") ? 1f : 0;
+        float rightBoolInt = Input.GetButton("Xbox_360_RightBumper") ? 1f : 0;
+        float bumper_value = allowRoll ? (leftBoolInt - rightBoolInt) : 0;
+        if ( (bumper_value != 0 || rsx != 0 || rsy!=0)) {
+            force = (rb.transform.forward * 2f * bumper_value + (rb.transform.up * rsx + rb.transform.right * rsy)) * Time.deltaTime ;
+            if (fix_to_floor && touching_floor)
+            {
+                transform.RotateAround(transform.position, transform.up, rsx * rotation_velocity * Time.deltaTime);
+            }else if (fixed_angular_speed == true){
+                rb.angularVelocity = force * rotation_velocity;
+
+            }else {
                 rb.AddTorque(force * rotation_acceleration);
             }
-        } else if (fixed_angular_speed == true) { rb.angularVelocity = Vector3.zero; }
+            playSound(force, false);
 
-        if (Input.GetAxis("Xbox_360_RightJoystickX") != 0 || Input.GetAxis("Xbox_360_RightJoystickY") != 0) {
-            int invert = invert_yaxis ? -1 : 1;
-            int allowpitch = allowPitch ? 1 : 0;
-            float yaw = Input.GetAxis("Xbox_360_RightJoystickX");
-            float pitch = Input.GetAxis("Xbox_360_RightJoystickY") * invert * allowpitch;
-            force = (rb.transform.up * yaw + rb.transform.right * pitch)  * Time.deltaTime;
-
-            if (fixed_angular_speed == true)  {
-                //force = force * rotation_velocity  + rb.angularVelocity;
-                //rb.angularVelocity = force;
-                if (fix_to_floor) {
-                    //float yaw = Input.GetAxis("Xbox_360_RightJoystickX") * 1;
-                    transform.RotateAround(transform.position, transform.up, Input.GetAxis("Xbox_360_RightJoystickX") * rotation_velocity * Time.deltaTime);
-                    //rb.angularVelocity = Vector3.zero;
-                } else {
-                    force = force * rotation_velocity + rb.angularVelocity;
-                    rb.angularVelocity = force;
-                }
-            } else {
-                rb.AddTorque(force * rotation_acceleration);
-            }
         }
+        else if (fixed_angular_speed == true || (fix_to_floor && touching_floor)) { rb.angularVelocity = Vector3.zero; }
     }
 
 void braking(Rigidbody rb){
@@ -165,13 +145,11 @@ void braking(Rigidbody rb){
             if (rb.velocity.magnitude < braking_translation_threshold)
                 rb.velocity = Vector3.zero;
             //Debug.Log(rb.velocity.magnitude);
-
         }
     }
 
  
-    void move2()
-    {
+    void move() {
         rb = GetComponent<Rigidbody>();
   //      Vector3 cameraForwardDirection = GameObject.FindObjectOfType<Camera>().transform.forward;
 		//Vector3 cameraRightDirection = GameObject.FindObjectOfType<Camera>().transform.right;
@@ -186,40 +164,33 @@ void braking(Rigidbody rb){
 
         //Thrust left right forward backward
 		if (fix_to_floor) {
-            if (Input.GetButtonDown("Xbox_360_Y"))
+            if (Input.GetButtonDown("Xbox_360_Y") || detach == true)
             {
+                detach = false;
                 rb.isKinematic = false;
-                //				rb.detectCollisions = true;
-                //				rb.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationX;
                 rb.freezeRotation = false;
-
                 fix_to_floor = false;
-            }
-            else {
-                translationalMovement(rb);
-                rotationalMovement(rb);
-
-                braking(rb);
-
+            }else {
 
                 //Fall to normal
                 //Ray ray;
                 RaycastHit hit;
                 Vector3 myNormal = transform.up;
-                float gravity = 1f;
-                float slerpSpeed = 10;
-                //			bool isGrounded = false;
-                //float deltaGround = 0.2f;
-                //			ray = Ray (transform.position, -transform.up);
+                bool isGrounded = false;
                 if (Physics.Raycast(transform.position, -transform.up, out hit))
                 {
-                    //				isGrounded = hit.distance <= distGround + deltaGround;
+                    isGrounded = hit.distance <= distGround + deltaGround;
+                    detach = hit.distance >= distGround + deltaGround + maxGroundDistance;
                     surfaceNormal = hit.normal;
-                }
-                else {
-                    //				isGrounded = false;
+                    //Debug.Log("is grounded value: " + (hit.distance - (distGround + deltaGround)));
+                } else {
+                    isGrounded = false;
+                    detach = true;
                     surfaceNormal = transform.up;
                 }
+                translationalMovement(rb, isGrounded);
+                rotationalMovement(rb, isGrounded);
+                braking(rb);
                 myNormal = Vector3.Slerp(myNormal, surfaceNormal, slerpSpeed * Time.deltaTime).normalized;
                 Vector3 myForward = Vector3.Cross(transform.right, myNormal);
                 Quaternion targetRot = Quaternion.LookRotation(myForward, myNormal);
@@ -247,11 +218,10 @@ void braking(Rigidbody rb){
 			if (Input.GetButtonUp ("Xbox_360_Y")) {
 				transitioning = false;
 			}
-			if (Time.time >= pressTime && transitioning == true && rb.angularVelocity.magnitude < braking_rotation_threshold) {
+			if ((fixed_angular_speed == false && fixed_linear_speed == false) && Time.time >= pressTime && transitioning == true && rb.angularVelocity.magnitude < braking_rotation_threshold) {
 				transitioning = false;
 				fix_to_floor = true;
 				rb.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ;
-				//closestGravityWell = ClosestObject ();
 			}
 
 
@@ -288,7 +258,7 @@ void braking(Rigidbody rb){
         //}
     }
 
-    void playSound(Vector3 force)
+    void playSound(Vector3 force,bool isLinear)
     {
         SoundManager.instance.playSoundEffect(forwardSound);
         SoundManager.instance.playSoundEffect(backSound);

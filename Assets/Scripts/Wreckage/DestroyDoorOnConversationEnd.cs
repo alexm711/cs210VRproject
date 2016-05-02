@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class DestoryDoorOnConversationEnd : MonoBehaviour {
+public class DestroyDoorOnConversationEnd : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
