@@ -99,16 +99,17 @@ public class PlayerControllerAlex : MonoBehaviour {
         float lt = Input.GetAxis("Xbox_360_LeftTrigger");
         float lsx = Input.GetAxis("Xbox_360_LeftJoystickX");
         float lsy = Input.GetAxis("Xbox_360_LeftJoystickY");
+        Vector3 magnitude = Vector3.zero;
         if (((rt != 0) != (lt != 0)) || (lsx != 0 || lsy != 0)) {
-            Vector3 magnitude = (rb.transform.up * (rt - lt) + (-lsy * rb.transform.forward + lsx * rb.transform.right)) * Time.deltaTime;
+            magnitude = applyBoost((rb.transform.up * (rt - lt) + (-lsy * rb.transform.forward + lsx * rb.transform.right)) * Time.deltaTime);
             if (fixed_linear_speed == true || (fix_to_floor && touching_floor))  {
-                rb.velocity = applyBoost(magnitude * translation_velocity);
+                rb.velocity = magnitude * translation_velocity;
             } else {
-                rb.AddForce(applyBoost(magnitude * translation_acceleration));
+                rb.AddForce(magnitude * translation_acceleration);
             }
-            playSound(magnitude,true);
         }
         else if (fixed_linear_speed == true || (fix_to_floor && touching_floor)) { rb.velocity = Vector3.zero; }
+        playSound(magnitude, true);
     }
     void rotationalMovement(Rigidbody rb, bool touching_floor = false)
     {
@@ -130,7 +131,7 @@ public class PlayerControllerAlex : MonoBehaviour {
             }else {
                 rb.AddTorque(force * rotation_acceleration);
             }
-            playSound(force, false);
+            //playSound(force, false);
 
         }
         else if (fixed_angular_speed == true || (fix_to_floor && touching_floor)) { rb.angularVelocity = Vector3.zero; }
@@ -260,6 +261,7 @@ void braking(Rigidbody rb){
 
     void playSound(Vector3 force,bool isLinear)
     {
+        JetpackSoundManager.instance.PlayLatSound(force);
         SoundManager.instance.playSoundEffect(forwardSound);
         SoundManager.instance.playSoundEffect(backSound);
 
