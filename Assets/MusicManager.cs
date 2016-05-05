@@ -5,10 +5,8 @@ public class MusicManager : MonoBehaviour {
 	public AudioClip[] songs;
 	int currentSong = 0;
 	bool changeSong = false;
-	// Use this for initialization
-	void Start () {
-		
-	}
+    public AudioSource dialogue;
+
 	
 	// Update is called once per frame
 	void Update () {
@@ -19,6 +17,11 @@ public class MusicManager : MonoBehaviour {
 			audio.Play ();
 			changeSong = false;
 		}
+
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            dialogue.Play();
+        }
 	}
 	public void ChangeSong(){
 		changeSong = true;

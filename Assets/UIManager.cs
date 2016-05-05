@@ -130,7 +130,6 @@ public class UIManager : MonoBehaviour {
 		AudioSource Alice_Audio = GameObject.Find ("Alice").GetComponent<AudioSource> ();
 		Ellie_Audio.volume = val;
 		Alice_Audio.volume = val;
-		Debug.Log("Volume val: " + val);
 
 //		GetComponent<AudioSource>().volume = val;
 	}

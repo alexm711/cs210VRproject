@@ -3,6 +3,8 @@ using System.Collections;
 
 public class JetpackSoundManager : MonoBehaviour {
     public static JetpackSoundManager instance = null;
+    public float multiple = 10f;
+
 
     // Use this for initialization
     AudioSource Up;
@@ -56,14 +58,12 @@ public class JetpackSoundManager : MonoBehaviour {
         //    Down.volume = val.y;
 
         //}
-        float multiple = 25f;
         val = val * multiple;
         float absz = val.z > 0.1f ? val.z : -val.z;
         Left.volume = absz + (val.x > 0.1f ?  val.x  : 0f);
         Right.volume = absz +  (val.x < -0.1f ?  -val.x  : 0f);
         Down.volume = absz +  (val.y > 0.1f ? val.y : 0f);
         Up.volume = absz + (val.y < -0.1f ? - val.y : 0f);
-        Debug.Log("Volume val: ");
         //GetComponent<AudioSource>().volume = val;
     }
 }
