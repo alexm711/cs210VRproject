@@ -1,0 +1,3201 @@
+fileFormatVersion: 2
+guid: 57578b1192ab28b42ad9d44c29602712
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: helmet
+    100004: space_01
+    100006: space_01_high
+    100008: helmet_LOD0
+    100010: space_01_LOD0
+    100012: space_01_LOD1
+    100014: space_01_LOD2
+    100016: helmet_LOD1
+    100018: HumanEyeL
+    100020: HumanEyeR
+    100022: HumanForehead
+    100024: HumanHead
+    100026: Humanhelmet
+    100028: HumanLCalf
+    100030: HumanLCollarbone
+    100032: HumanLDigit11
+    100034: HumanLDigit11 1
+    100036: HumanLDigit12
+    100038: HumanLDigit13
+    100040: HumanLDigit21
+    100042: HumanLDigit22
+    100044: HumanLDigit23
+    100046: HumanLDigit31
+    100048: HumanLDigit32
+    100050: HumanLDigit33
+    100052: HumanLDigit41
+    100054: HumanLDigit42
+    100056: HumanLDigit43
+    100058: HumanLDigit51
+    100060: HumanLDigit52
+    100062: HumanLDigit53
+    100064: HumanLFoot
+    100066: HumanLForearm
+    100068: HumanLPalm
+    100070: HumanLThigh
+    100072: HumanLUpperarm
+    100074: HumanMouth
+    100076: HumanNeck1
+    100078: HumanNeck2
+    100080: HumanPelvis
+    100082: HumanRCalf
+    100084: HumanRCollarbone
+    100086: HumanRDigit11
+    100088: HumanRDigit11 1
+    100090: HumanRDigit12
+    100092: HumanRDigit13
+    100094: HumanRDigit21
+    100096: HumanRDigit22
+    100098: HumanRDigit23
+    100100: HumanRDigit31
+    100102: HumanRDigit32
+    100104: HumanRDigit33
+    100106: HumanRDigit41
+    100108: HumanRDigit42
+    100110: HumanRDigit43
+    100112: HumanRDigit51
+    100114: HumanRDigit52
+    100116: HumanRDigit53
+    100118: HumanRFoot
+    100120: HumanRForearm
+    100122: HumanRibcage
+    100124: HumanRPalm
+    100126: HumanRSholder
+    100128: HumanRSholder 1
+    100130: HumanRThigh
+    100132: HumanRUpperarm
+    100134: HumanSpine1
+    100136: HumanSpine2
+    100138: HumanSpine3
+    100140: space_01_LOD0_head
+    400000: //RootNode
+    400002: helmet
+    400004: space_01
+    400006: space_01_high
+    400008: helmet_LOD0
+    400010: space_01_LOD0
+    400012: space_01_LOD1
+    400014: space_01_LOD2
+    400016: helmet_LOD1
+    400018: HumanEyeL
+    400020: HumanEyeR
+    400022: HumanForehead
+    400024: HumanHead
+    400026: Humanhelmet
+    400028: HumanLCalf
+    400030: HumanLCollarbone
+    400032: HumanLDigit11
+    400034: HumanLDigit11 1
+    400036: HumanLDigit12
+    400038: HumanLDigit13
+    400040: HumanLDigit21
+    400042: HumanLDigit22
+    400044: HumanLDigit23
+    400046: HumanLDigit31
+    400048: HumanLDigit32
+    400050: HumanLDigit33
+    400052: HumanLDigit41
+    400054: HumanLDigit42
+    400056: HumanLDigit43
+    400058: HumanLDigit51
+    400060: HumanLDigit52
+    400062: HumanLDigit53
+    400064: HumanLFoot
+    400066: HumanLForearm
+    400068: HumanLPalm
+    400070: HumanLThigh
+    400072: HumanLUpperarm
+    400074: HumanMouth
+    400076: HumanNeck1
+    400078: HumanNeck2
+    400080: HumanPelvis
+    400082: HumanRCalf
+    400084: HumanRCollarbone
+    400086: HumanRDigit11
+    400088: HumanRDigit11 1
+    400090: HumanRDigit12
+    400092: HumanRDigit13
+    400094: HumanRDigit21
+    400096: HumanRDigit22
+    400098: HumanRDigit23
+    400100: HumanRDigit31
+    400102: HumanRDigit32
+    400104: HumanRDigit33
+    400106: HumanRDigit41
+    400108: HumanRDigit42
+    400110: HumanRDigit43
+    400112: HumanRDigit51
+    400114: HumanRDigit52
+    400116: HumanRDigit53
+    400118: HumanRFoot
+    400120: HumanRForearm
+    400122: HumanRibcage
+    400124: HumanRPalm
+    400126: HumanRSholder
+    400128: HumanRSholder 1
+    400130: HumanRThigh
+    400132: HumanRUpperarm
+    400134: HumanSpine1
+    400136: HumanSpine2
+    400138: HumanSpine3
+    400140: space_01_LOD0_head
+    2300000: //RootNode
+    2300002: helmet
+    2300004: space_01
+    2300006: space_01_high
+    2300008: helmet_LOD0
+    2300010: space_01_LOD0
+    2300012: space_01_LOD1
+    2300014: space_01_LOD2
+    2300016: helmet_LOD1
+    3300000: //RootNode
+    3300002: helmet
+    3300004: space_01
+    3300006: space_01_high
+    3300008: helmet_LOD0
+    3300010: space_01_LOD0
+    3300012: space_01_LOD1
+    3300014: space_01_LOD2
+    3300016: helmet_LOD1
+    4300000: space_01
+    4300002: helmet
+    4300004: space_01_high
+    4300006: helmet_LOD0
+    4300008: space_01_LOD0
+    4300010: space_01_LOD2
+    4300012: space_01_LOD1
+    4300014: helmet_LOD1
+    4300016: space_01_LOD0_head
+    7400000: idle
+    7400002: idle break
+    7400004: talk
+    7400006: jump
+    7400008: prepare
+    7400010: idle fight
+    7400012: shoot
+    7400014: kick
+    7400016: death
+    7400018: walk
+    7400020: run
+    7400022: hover
+    7400024: flying
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: space_01_LOD0
+    13700002: space_01_LOD0_head
+    13700004: space_01_LOD1
+    13700006: space_01_LOD2
+    20500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 90
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: HumanPelvis
+        weight: 1
+      - path: HumanPelvis/HumanLThigh
+        weight: 1
+      - path: HumanPelvis/HumanLThigh/HumanLCalf
+        weight: 1
+      - path: HumanPelvis/HumanLThigh/HumanLCalf/HumanLFoot
+        weight: 1
+      - path: HumanPelvis/HumanLThigh/HumanLCalf/HumanLFoot/HumanLDigit11
+        weight: 1
+      - path: HumanPelvis/HumanRThigh
+        weight: 1
+      - path: HumanPelvis/HumanRThigh/HumanRCalf
+        weight: 1
+      - path: HumanPelvis/HumanRThigh/HumanRCalf/HumanRFoot
+        weight: 1
+      - path: HumanPelvis/HumanRThigh/HumanRCalf/HumanRFoot/HumanRDigit11
+        weight: 1
+      - path: HumanPelvis/HumanSpine1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/Humanhelmet
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/Humanhelmet/helmet_LOD0
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/Humanhelmet/helmet_LOD1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit11
+          1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit11
+          1/HumanLDigit12
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit11
+          1/HumanLDigit12/HumanLDigit13
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit21
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit21/HumanLDigit22
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit21/HumanLDigit22/HumanLDigit23
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit31
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit31/HumanLDigit32
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit31/HumanLDigit32/HumanLDigit33
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit41
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit41/HumanLDigit42
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit41/HumanLDigit42/HumanLDigit43
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit51
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit51/HumanLDigit52
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit51/HumanLDigit52/HumanLDigit53
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanRSholder
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead/HumanEyeL
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead/HumanEyeR
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead/HumanForehead
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead/HumanMouth
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit11
+          1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit11
+          1/HumanRDigit12
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit11
+          1/HumanRDigit12/HumanRDigit13
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit21
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit21/HumanRDigit22
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit21/HumanRDigit22/HumanRDigit23
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit31
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit31/HumanRDigit32
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit31/HumanRDigit32/HumanRDigit33
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit41
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit41/HumanRDigit42
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit41/HumanRDigit42/HumanRDigit43
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit51
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit51/HumanRDigit52
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit51/HumanRDigit52/HumanRDigit53
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRSholder
+          1
+        weight: 1
+      - path: space_01_LOD0
+        weight: 1
+      - path: space_01_LOD0_head
+        weight: 1
+      - path: space_01_LOD1
+        weight: 1
+      - path: space_01_LOD2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: idle break
+      takeName: Take 001
+      firstFrame: 90
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: HumanPelvis
+        weight: 1
+      - path: HumanPelvis/HumanLThigh
+        weight: 1
+      - path: HumanPelvis/HumanLThigh/HumanLCalf
+        weight: 1
+      - path: HumanPelvis/HumanLThigh/HumanLCalf/HumanLFoot
+        weight: 1
+      - path: HumanPelvis/HumanLThigh/HumanLCalf/HumanLFoot/HumanLDigit11
+        weight: 1
+      - path: HumanPelvis/HumanRThigh
+        weight: 1
+      - path: HumanPelvis/HumanRThigh/HumanRCalf
+        weight: 1
+      - path: HumanPelvis/HumanRThigh/HumanRCalf/HumanRFoot
+        weight: 1
+      - path: HumanPelvis/HumanRThigh/HumanRCalf/HumanRFoot/HumanRDigit11
+        weight: 1
+      - path: HumanPelvis/HumanSpine1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/Humanhelmet
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/Humanhelmet/helmet_LOD0
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/Humanhelmet/helmet_LOD1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit11
+          1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit11
+          1/HumanLDigit12
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit11
+          1/HumanLDigit12/HumanLDigit13
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit21
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit21/HumanLDigit22
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit21/HumanLDigit22/HumanLDigit23
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit31
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit31/HumanLDigit32
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit31/HumanLDigit32/HumanLDigit33
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit41
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit41/HumanLDigit42
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit41/HumanLDigit42/HumanLDigit43
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit51
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit51/HumanLDigit52
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit51/HumanLDigit52/HumanLDigit53
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanRSholder
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead/HumanEyeL
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead/HumanEyeR
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead/HumanForehead
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead/HumanMouth
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit11
+          1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit11
+          1/HumanRDigit12
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit11
+          1/HumanRDigit12/HumanRDigit13
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit21
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit21/HumanRDigit22
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit21/HumanRDigit22/HumanRDigit23
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit31
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit31/HumanRDigit32
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit31/HumanRDigit32/HumanRDigit33
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit41
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit41/HumanRDigit42
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit41/HumanRDigit42/HumanRDigit43
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit51
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit51/HumanRDigit52
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit51/HumanRDigit52/HumanRDigit53
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRSholder
+          1
+        weight: 1
+      - path: space_01_LOD0
+        weight: 1
+      - path: space_01_LOD0_head
+        weight: 1
+      - path: space_01_LOD1
+        weight: 1
+      - path: space_01_LOD2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: talk
+      takeName: Take 001
+      firstFrame: 200
+      lastFrame: 300
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: HumanPelvis
+        weight: 1
+      - path: HumanPelvis/HumanLThigh
+        weight: 1
+      - path: HumanPelvis/HumanLThigh/HumanLCalf
+        weight: 1
+      - path: HumanPelvis/HumanLThigh/HumanLCalf/HumanLFoot
+        weight: 1
+      - path: HumanPelvis/HumanLThigh/HumanLCalf/HumanLFoot/HumanLDigit11
+        weight: 1
+      - path: HumanPelvis/HumanRThigh
+        weight: 1
+      - path: HumanPelvis/HumanRThigh/HumanRCalf
+        weight: 1
+      - path: HumanPelvis/HumanRThigh/HumanRCalf/HumanRFoot
+        weight: 1
+      - path: HumanPelvis/HumanRThigh/HumanRCalf/HumanRFoot/HumanRDigit11
+        weight: 1
+      - path: HumanPelvis/HumanSpine1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/Humanhelmet
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/Humanhelmet/helmet_LOD0
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/Humanhelmet/helmet_LOD1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit11
+          1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit11
+          1/HumanLDigit12
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit11
+          1/HumanLDigit12/HumanLDigit13
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit21
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit21/HumanLDigit22
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit21/HumanLDigit22/HumanLDigit23
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit31
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit31/HumanLDigit32
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit31/HumanLDigit32/HumanLDigit33
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit41
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit41/HumanLDigit42
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit41/HumanLDigit42/HumanLDigit43
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit51
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit51/HumanLDigit52
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit51/HumanLDigit52/HumanLDigit53
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanRSholder
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead/HumanEyeL
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead/HumanEyeR
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead/HumanForehead
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead/HumanMouth
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit11
+          1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit11
+          1/HumanRDigit12
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit11
+          1/HumanRDigit12/HumanRDigit13
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit21
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit21/HumanRDigit22
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit21/HumanRDigit22/HumanRDigit23
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit31
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit31/HumanRDigit32
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit31/HumanRDigit32/HumanRDigit33
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit41
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit41/HumanRDigit42
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit41/HumanRDigit42/HumanRDigit43
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit51
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit51/HumanRDigit52
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit51/HumanRDigit52/HumanRDigit53
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRSholder
+          1
+        weight: 1
+      - path: space_01_LOD0
+        weight: 1
+      - path: space_01_LOD0_head
+        weight: 1
+      - path: space_01_LOD1
+        weight: 1
+      - path: space_01_LOD2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: jump
+      takeName: Take 001
+      firstFrame: 300
+      lastFrame: 340
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: HumanPelvis
+        weight: 1
+      - path: HumanPelvis/HumanLThigh
+        weight: 1
+      - path: HumanPelvis/HumanLThigh/HumanLCalf
+        weight: 1
+      - path: HumanPelvis/HumanLThigh/HumanLCalf/HumanLFoot
+        weight: 1
+      - path: HumanPelvis/HumanLThigh/HumanLCalf/HumanLFoot/HumanLDigit11
+        weight: 1
+      - path: HumanPelvis/HumanRThigh
+        weight: 1
+      - path: HumanPelvis/HumanRThigh/HumanRCalf
+        weight: 1
+      - path: HumanPelvis/HumanRThigh/HumanRCalf/HumanRFoot
+        weight: 1
+      - path: HumanPelvis/HumanRThigh/HumanRCalf/HumanRFoot/HumanRDigit11
+        weight: 1
+      - path: HumanPelvis/HumanSpine1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/Humanhelmet
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/Humanhelmet/helmet_LOD0
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/Humanhelmet/helmet_LOD1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit11
+          1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit11
+          1/HumanLDigit12
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit11
+          1/HumanLDigit12/HumanLDigit13
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit21
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit21/HumanLDigit22
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit21/HumanLDigit22/HumanLDigit23
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit31
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit31/HumanLDigit32
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit31/HumanLDigit32/HumanLDigit33
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit41
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit41/HumanLDigit42
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit41/HumanLDigit42/HumanLDigit43
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit51
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit51/HumanLDigit52
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit51/HumanLDigit52/HumanLDigit53
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanRSholder
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead/HumanEyeL
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead/HumanEyeR
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead/HumanForehead
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead/HumanMouth
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit11
+          1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit11
+          1/HumanRDigit12
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit11
+          1/HumanRDigit12/HumanRDigit13
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit21
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit21/HumanRDigit22
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit21/HumanRDigit22/HumanRDigit23
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit31
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit31/HumanRDigit32
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit31/HumanRDigit32/HumanRDigit33
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit41
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit41/HumanRDigit42
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit41/HumanRDigit42/HumanRDigit43
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit51
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit51/HumanRDigit52
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit51/HumanRDigit52/HumanRDigit53
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRSholder
+          1
+        weight: 1
+      - path: space_01_LOD0
+        weight: 1
+      - path: space_01_LOD0_head
+        weight: 1
+      - path: space_01_LOD1
+        weight: 1
+      - path: space_01_LOD2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: prepare
+      takeName: Take 001
+      firstFrame: 340
+      lastFrame: 350
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: HumanPelvis
+        weight: 1
+      - path: HumanPelvis/HumanLThigh
+        weight: 1
+      - path: HumanPelvis/HumanLThigh/HumanLCalf
+        weight: 1
+      - path: HumanPelvis/HumanLThigh/HumanLCalf/HumanLFoot
+        weight: 1
+      - path: HumanPelvis/HumanLThigh/HumanLCalf/HumanLFoot/HumanLDigit11
+        weight: 1
+      - path: HumanPelvis/HumanRThigh
+        weight: 1
+      - path: HumanPelvis/HumanRThigh/HumanRCalf
+        weight: 1
+      - path: HumanPelvis/HumanRThigh/HumanRCalf/HumanRFoot
+        weight: 1
+      - path: HumanPelvis/HumanRThigh/HumanRCalf/HumanRFoot/HumanRDigit11
+        weight: 1
+      - path: HumanPelvis/HumanSpine1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/Humanhelmet
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/Humanhelmet/helmet_LOD0
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/Humanhelmet/helmet_LOD1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit11
+          1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit11
+          1/HumanLDigit12
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit11
+          1/HumanLDigit12/HumanLDigit13
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit21
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit21/HumanLDigit22
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit21/HumanLDigit22/HumanLDigit23
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit31
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit31/HumanLDigit32
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit31/HumanLDigit32/HumanLDigit33
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit41
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit41/HumanLDigit42
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit41/HumanLDigit42/HumanLDigit43
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit51
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit51/HumanLDigit52
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit51/HumanLDigit52/HumanLDigit53
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanRSholder
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead/HumanEyeL
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead/HumanEyeR
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead/HumanForehead
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead/HumanMouth
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit11
+          1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit11
+          1/HumanRDigit12
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit11
+          1/HumanRDigit12/HumanRDigit13
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit21
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit21/HumanRDigit22
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit21/HumanRDigit22/HumanRDigit23
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit31
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit31/HumanRDigit32
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit31/HumanRDigit32/HumanRDigit33
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit41
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit41/HumanRDigit42
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit41/HumanRDigit42/HumanRDigit43
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit51
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit51/HumanRDigit52
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit51/HumanRDigit52/HumanRDigit53
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRSholder
+          1
+        weight: 1
+      - path: space_01_LOD0
+        weight: 1
+      - path: space_01_LOD0_head
+        weight: 1
+      - path: space_01_LOD1
+        weight: 1
+      - path: space_01_LOD2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: idle fight
+      takeName: Take 001
+      firstFrame: 350
+      lastFrame: 400
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: HumanPelvis
+        weight: 1
+      - path: HumanPelvis/HumanLThigh
+        weight: 1
+      - path: HumanPelvis/HumanLThigh/HumanLCalf
+        weight: 1
+      - path: HumanPelvis/HumanLThigh/HumanLCalf/HumanLFoot
+        weight: 1
+      - path: HumanPelvis/HumanLThigh/HumanLCalf/HumanLFoot/HumanLDigit11
+        weight: 1
+      - path: HumanPelvis/HumanRThigh
+        weight: 1
+      - path: HumanPelvis/HumanRThigh/HumanRCalf
+        weight: 1
+      - path: HumanPelvis/HumanRThigh/HumanRCalf/HumanRFoot
+        weight: 1
+      - path: HumanPelvis/HumanRThigh/HumanRCalf/HumanRFoot/HumanRDigit11
+        weight: 1
+      - path: HumanPelvis/HumanSpine1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/Humanhelmet
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/Humanhelmet/helmet_LOD0
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/Humanhelmet/helmet_LOD1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit11
+          1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit11
+          1/HumanLDigit12
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit11
+          1/HumanLDigit12/HumanLDigit13
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit21
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit21/HumanLDigit22
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit21/HumanLDigit22/HumanLDigit23
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit31
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit31/HumanLDigit32
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit31/HumanLDigit32/HumanLDigit33
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit41
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit41/HumanLDigit42
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit41/HumanLDigit42/HumanLDigit43
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit51
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit51/HumanLDigit52
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit51/HumanLDigit52/HumanLDigit53
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanRSholder
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead/HumanEyeL
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead/HumanEyeR
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead/HumanForehead
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead/HumanMouth
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit11
+          1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit11
+          1/HumanRDigit12
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit11
+          1/HumanRDigit12/HumanRDigit13
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit21
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit21/HumanRDigit22
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit21/HumanRDigit22/HumanRDigit23
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit31
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit31/HumanRDigit32
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit31/HumanRDigit32/HumanRDigit33
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit41
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit41/HumanRDigit42
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit41/HumanRDigit42/HumanRDigit43
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit51
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit51/HumanRDigit52
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit51/HumanRDigit52/HumanRDigit53
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRSholder
+          1
+        weight: 1
+      - path: space_01_LOD0
+        weight: 1
+      - path: space_01_LOD0_head
+        weight: 1
+      - path: space_01_LOD1
+        weight: 1
+      - path: space_01_LOD2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: shoot
+      takeName: Take 001
+      firstFrame: 450
+      lastFrame: 460
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: HumanPelvis
+        weight: 1
+      - path: HumanPelvis/HumanLThigh
+        weight: 1
+      - path: HumanPelvis/HumanLThigh/HumanLCalf
+        weight: 1
+      - path: HumanPelvis/HumanLThigh/HumanLCalf/HumanLFoot
+        weight: 1
+      - path: HumanPelvis/HumanLThigh/HumanLCalf/HumanLFoot/HumanLDigit11
+        weight: 1
+      - path: HumanPelvis/HumanRThigh
+        weight: 1
+      - path: HumanPelvis/HumanRThigh/HumanRCalf
+        weight: 1
+      - path: HumanPelvis/HumanRThigh/HumanRCalf/HumanRFoot
+        weight: 1
+      - path: HumanPelvis/HumanRThigh/HumanRCalf/HumanRFoot/HumanRDigit11
+        weight: 1
+      - path: HumanPelvis/HumanSpine1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/Humanhelmet
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/Humanhelmet/helmet_LOD0
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/Humanhelmet/helmet_LOD1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit11
+          1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit11
+          1/HumanLDigit12
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit11
+          1/HumanLDigit12/HumanLDigit13
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit21
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit21/HumanLDigit22
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit21/HumanLDigit22/HumanLDigit23
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit31
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit31/HumanLDigit32
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit31/HumanLDigit32/HumanLDigit33
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit41
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit41/HumanLDigit42
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit41/HumanLDigit42/HumanLDigit43
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit51
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit51/HumanLDigit52
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit51/HumanLDigit52/HumanLDigit53
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanRSholder
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead/HumanEyeL
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead/HumanEyeR
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead/HumanForehead
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead/HumanMouth
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit11
+          1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit11
+          1/HumanRDigit12
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit11
+          1/HumanRDigit12/HumanRDigit13
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit21
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit21/HumanRDigit22
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit21/HumanRDigit22/HumanRDigit23
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit31
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit31/HumanRDigit32
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit31/HumanRDigit32/HumanRDigit33
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit41
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit41/HumanRDigit42
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit41/HumanRDigit42/HumanRDigit43
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit51
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit51/HumanRDigit52
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit51/HumanRDigit52/HumanRDigit53
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRSholder
+          1
+        weight: 1
+      - path: space_01_LOD0
+        weight: 1
+      - path: space_01_LOD0_head
+        weight: 1
+      - path: space_01_LOD1
+        weight: 1
+      - path: space_01_LOD2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: kick
+      takeName: Take 001
+      firstFrame: 480
+      lastFrame: 510
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: HumanPelvis
+        weight: 1
+      - path: HumanPelvis/HumanLThigh
+        weight: 1
+      - path: HumanPelvis/HumanLThigh/HumanLCalf
+        weight: 1
+      - path: HumanPelvis/HumanLThigh/HumanLCalf/HumanLFoot
+        weight: 1
+      - path: HumanPelvis/HumanLThigh/HumanLCalf/HumanLFoot/HumanLDigit11
+        weight: 1
+      - path: HumanPelvis/HumanRThigh
+        weight: 1
+      - path: HumanPelvis/HumanRThigh/HumanRCalf
+        weight: 1
+      - path: HumanPelvis/HumanRThigh/HumanRCalf/HumanRFoot
+        weight: 1
+      - path: HumanPelvis/HumanRThigh/HumanRCalf/HumanRFoot/HumanRDigit11
+        weight: 1
+      - path: HumanPelvis/HumanSpine1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/Humanhelmet
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/Humanhelmet/helmet_LOD0
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/Humanhelmet/helmet_LOD1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit11
+          1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit11
+          1/HumanLDigit12
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit11
+          1/HumanLDigit12/HumanLDigit13
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit21
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit21/HumanLDigit22
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit21/HumanLDigit22/HumanLDigit23
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit31
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit31/HumanLDigit32
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit31/HumanLDigit32/HumanLDigit33
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit41
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit41/HumanLDigit42
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit41/HumanLDigit42/HumanLDigit43
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit51
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit51/HumanLDigit52
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit51/HumanLDigit52/HumanLDigit53
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanRSholder
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead/HumanEyeL
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead/HumanEyeR
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead/HumanForehead
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead/HumanMouth
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit11
+          1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit11
+          1/HumanRDigit12
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit11
+          1/HumanRDigit12/HumanRDigit13
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit21
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit21/HumanRDigit22
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit21/HumanRDigit22/HumanRDigit23
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit31
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit31/HumanRDigit32
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit31/HumanRDigit32/HumanRDigit33
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit41
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit41/HumanRDigit42
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit41/HumanRDigit42/HumanRDigit43
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit51
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit51/HumanRDigit52
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit51/HumanRDigit52/HumanRDigit53
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRSholder
+          1
+        weight: 1
+      - path: space_01_LOD0
+        weight: 1
+      - path: space_01_LOD0_head
+        weight: 1
+      - path: space_01_LOD1
+        weight: 1
+      - path: space_01_LOD2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: death
+      takeName: Take 001
+      firstFrame: 600
+      lastFrame: 630
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: HumanPelvis
+        weight: 1
+      - path: HumanPelvis/HumanLThigh
+        weight: 1
+      - path: HumanPelvis/HumanLThigh/HumanLCalf
+        weight: 1
+      - path: HumanPelvis/HumanLThigh/HumanLCalf/HumanLFoot
+        weight: 1
+      - path: HumanPelvis/HumanLThigh/HumanLCalf/HumanLFoot/HumanLDigit11
+        weight: 1
+      - path: HumanPelvis/HumanRThigh
+        weight: 1
+      - path: HumanPelvis/HumanRThigh/HumanRCalf
+        weight: 1
+      - path: HumanPelvis/HumanRThigh/HumanRCalf/HumanRFoot
+        weight: 1
+      - path: HumanPelvis/HumanRThigh/HumanRCalf/HumanRFoot/HumanRDigit11
+        weight: 1
+      - path: HumanPelvis/HumanSpine1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/Humanhelmet
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/Humanhelmet/helmet_LOD0
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/Humanhelmet/helmet_LOD1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit11
+          1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit11
+          1/HumanLDigit12
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit11
+          1/HumanLDigit12/HumanLDigit13
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit21
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit21/HumanLDigit22
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit21/HumanLDigit22/HumanLDigit23
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit31
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit31/HumanLDigit32
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit31/HumanLDigit32/HumanLDigit33
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit41
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit41/HumanLDigit42
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit41/HumanLDigit42/HumanLDigit43
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit51
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit51/HumanLDigit52
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit51/HumanLDigit52/HumanLDigit53
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanRSholder
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead/HumanEyeL
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead/HumanEyeR
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead/HumanForehead
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead/HumanMouth
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit11
+          1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit11
+          1/HumanRDigit12
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit11
+          1/HumanRDigit12/HumanRDigit13
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit21
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit21/HumanRDigit22
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit21/HumanRDigit22/HumanRDigit23
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit31
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit31/HumanRDigit32
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit31/HumanRDigit32/HumanRDigit33
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit41
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit41/HumanRDigit42
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit41/HumanRDigit42/HumanRDigit43
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit51
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit51/HumanRDigit52
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit51/HumanRDigit52/HumanRDigit53
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRSholder
+          1
+        weight: 1
+      - path: space_01_LOD0
+        weight: 1
+      - path: space_01_LOD0_head
+        weight: 1
+      - path: space_01_LOD1
+        weight: 1
+      - path: space_01_LOD2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: walk
+      takeName: Take 001
+      firstFrame: 700
+      lastFrame: 735
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: HumanPelvis
+        weight: 1
+      - path: HumanPelvis/HumanLThigh
+        weight: 1
+      - path: HumanPelvis/HumanLThigh/HumanLCalf
+        weight: 1
+      - path: HumanPelvis/HumanLThigh/HumanLCalf/HumanLFoot
+        weight: 1
+      - path: HumanPelvis/HumanLThigh/HumanLCalf/HumanLFoot/HumanLDigit11
+        weight: 1
+      - path: HumanPelvis/HumanRThigh
+        weight: 1
+      - path: HumanPelvis/HumanRThigh/HumanRCalf
+        weight: 1
+      - path: HumanPelvis/HumanRThigh/HumanRCalf/HumanRFoot
+        weight: 1
+      - path: HumanPelvis/HumanRThigh/HumanRCalf/HumanRFoot/HumanRDigit11
+        weight: 1
+      - path: HumanPelvis/HumanSpine1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/Humanhelmet
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/Humanhelmet/helmet_LOD0
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/Humanhelmet/helmet_LOD1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit11
+          1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit11
+          1/HumanLDigit12
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit11
+          1/HumanLDigit12/HumanLDigit13
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit21
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit21/HumanLDigit22
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit21/HumanLDigit22/HumanLDigit23
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit31
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit31/HumanLDigit32
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit31/HumanLDigit32/HumanLDigit33
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit41
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit41/HumanLDigit42
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit41/HumanLDigit42/HumanLDigit43
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit51
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit51/HumanLDigit52
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit51/HumanLDigit52/HumanLDigit53
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanRSholder
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead/HumanEyeL
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead/HumanEyeR
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead/HumanForehead
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead/HumanMouth
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit11
+          1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit11
+          1/HumanRDigit12
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit11
+          1/HumanRDigit12/HumanRDigit13
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit21
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit21/HumanRDigit22
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit21/HumanRDigit22/HumanRDigit23
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit31
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit31/HumanRDigit32
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit31/HumanRDigit32/HumanRDigit33
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit41
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit41/HumanRDigit42
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit41/HumanRDigit42/HumanRDigit43
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit51
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit51/HumanRDigit52
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit51/HumanRDigit52/HumanRDigit53
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRSholder
+          1
+        weight: 1
+      - path: space_01_LOD0
+        weight: 1
+      - path: space_01_LOD0_head
+        weight: 1
+      - path: space_01_LOD1
+        weight: 1
+      - path: space_01_LOD2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: run
+      takeName: Take 001
+      firstFrame: 750
+      lastFrame: 775
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: HumanPelvis
+        weight: 1
+      - path: HumanPelvis/HumanLThigh
+        weight: 1
+      - path: HumanPelvis/HumanLThigh/HumanLCalf
+        weight: 1
+      - path: HumanPelvis/HumanLThigh/HumanLCalf/HumanLFoot
+        weight: 1
+      - path: HumanPelvis/HumanLThigh/HumanLCalf/HumanLFoot/HumanLDigit11
+        weight: 1
+      - path: HumanPelvis/HumanRThigh
+        weight: 1
+      - path: HumanPelvis/HumanRThigh/HumanRCalf
+        weight: 1
+      - path: HumanPelvis/HumanRThigh/HumanRCalf/HumanRFoot
+        weight: 1
+      - path: HumanPelvis/HumanRThigh/HumanRCalf/HumanRFoot/HumanRDigit11
+        weight: 1
+      - path: HumanPelvis/HumanSpine1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/Humanhelmet
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/Humanhelmet/helmet_LOD0
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/Humanhelmet/helmet_LOD1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit11
+          1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit11
+          1/HumanLDigit12
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit11
+          1/HumanLDigit12/HumanLDigit13
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit21
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit21/HumanLDigit22
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit21/HumanLDigit22/HumanLDigit23
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit31
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit31/HumanLDigit32
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit31/HumanLDigit32/HumanLDigit33
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit41
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit41/HumanLDigit42
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit41/HumanLDigit42/HumanLDigit43
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit51
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit51/HumanLDigit52
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit51/HumanLDigit52/HumanLDigit53
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanRSholder
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead/HumanEyeL
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead/HumanEyeR
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead/HumanForehead
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead/HumanMouth
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit11
+          1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit11
+          1/HumanRDigit12
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit11
+          1/HumanRDigit12/HumanRDigit13
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit21
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit21/HumanRDigit22
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit21/HumanRDigit22/HumanRDigit23
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit31
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit31/HumanRDigit32
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit31/HumanRDigit32/HumanRDigit33
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit41
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit41/HumanRDigit42
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit41/HumanRDigit42/HumanRDigit43
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit51
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit51/HumanRDigit52
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit51/HumanRDigit52/HumanRDigit53
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRSholder
+          1
+        weight: 1
+      - path: space_01_LOD0
+        weight: 1
+      - path: space_01_LOD0_head
+        weight: 1
+      - path: space_01_LOD1
+        weight: 1
+      - path: space_01_LOD2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: hover
+      takeName: Take 001
+      firstFrame: 800
+      lastFrame: 850
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: HumanPelvis
+        weight: 1
+      - path: HumanPelvis/HumanLThigh
+        weight: 1
+      - path: HumanPelvis/HumanLThigh/HumanLCalf
+        weight: 1
+      - path: HumanPelvis/HumanLThigh/HumanLCalf/HumanLFoot
+        weight: 1
+      - path: HumanPelvis/HumanLThigh/HumanLCalf/HumanLFoot/HumanLDigit11
+        weight: 1
+      - path: HumanPelvis/HumanRThigh
+        weight: 1
+      - path: HumanPelvis/HumanRThigh/HumanRCalf
+        weight: 1
+      - path: HumanPelvis/HumanRThigh/HumanRCalf/HumanRFoot
+        weight: 1
+      - path: HumanPelvis/HumanRThigh/HumanRCalf/HumanRFoot/HumanRDigit11
+        weight: 1
+      - path: HumanPelvis/HumanSpine1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/Humanhelmet
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/Humanhelmet/helmet_LOD0
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/Humanhelmet/helmet_LOD1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit11
+          1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit11
+          1/HumanLDigit12
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit11
+          1/HumanLDigit12/HumanLDigit13
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit21
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit21/HumanLDigit22
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit21/HumanLDigit22/HumanLDigit23
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit31
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit31/HumanLDigit32
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit31/HumanLDigit32/HumanLDigit33
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit41
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit41/HumanLDigit42
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit41/HumanLDigit42/HumanLDigit43
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit51
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit51/HumanLDigit52
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit51/HumanLDigit52/HumanLDigit53
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanRSholder
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead/HumanEyeL
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead/HumanEyeR
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead/HumanForehead
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead/HumanMouth
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit11
+          1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit11
+          1/HumanRDigit12
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit11
+          1/HumanRDigit12/HumanRDigit13
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit21
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit21/HumanRDigit22
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit21/HumanRDigit22/HumanRDigit23
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit31
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit31/HumanRDigit32
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit31/HumanRDigit32/HumanRDigit33
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit41
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit41/HumanRDigit42
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit41/HumanRDigit42/HumanRDigit43
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit51
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit51/HumanRDigit52
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit51/HumanRDigit52/HumanRDigit53
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRSholder
+          1
+        weight: 1
+      - path: space_01_LOD0
+        weight: 1
+      - path: space_01_LOD0_head
+        weight: 1
+      - path: space_01_LOD1
+        weight: 1
+      - path: space_01_LOD2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: flying
+      takeName: Take 001
+      firstFrame: 870
+      lastFrame: 895
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: HumanPelvis
+        weight: 1
+      - path: HumanPelvis/HumanLThigh
+        weight: 1
+      - path: HumanPelvis/HumanLThigh/HumanLCalf
+        weight: 1
+      - path: HumanPelvis/HumanLThigh/HumanLCalf/HumanLFoot
+        weight: 1
+      - path: HumanPelvis/HumanLThigh/HumanLCalf/HumanLFoot/HumanLDigit11
+        weight: 1
+      - path: HumanPelvis/HumanRThigh
+        weight: 1
+      - path: HumanPelvis/HumanRThigh/HumanRCalf
+        weight: 1
+      - path: HumanPelvis/HumanRThigh/HumanRCalf/HumanRFoot
+        weight: 1
+      - path: HumanPelvis/HumanRThigh/HumanRCalf/HumanRFoot/HumanRDigit11
+        weight: 1
+      - path: HumanPelvis/HumanSpine1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/Humanhelmet
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/Humanhelmet/helmet_LOD0
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/Humanhelmet/helmet_LOD1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit11
+          1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit11
+          1/HumanLDigit12
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit11
+          1/HumanLDigit12/HumanLDigit13
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit21
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit21/HumanLDigit22
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit21/HumanLDigit22/HumanLDigit23
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit31
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit31/HumanLDigit32
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit31/HumanLDigit32/HumanLDigit33
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit41
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit41/HumanLDigit42
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit41/HumanLDigit42/HumanLDigit43
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit51
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit51/HumanLDigit52
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanLForearm/HumanLPalm/HumanLDigit51/HumanLDigit52/HumanLDigit53
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLCollarbone/HumanLUpperarm/HumanRSholder
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead/HumanEyeL
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead/HumanEyeR
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead/HumanForehead
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck1/HumanNeck2/HumanHead/HumanMouth
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit11
+          1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit11
+          1/HumanRDigit12
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit11
+          1/HumanRDigit12/HumanRDigit13
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit21
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit21/HumanRDigit22
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit21/HumanRDigit22/HumanRDigit23
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit31
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit31/HumanRDigit32
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit31/HumanRDigit32/HumanRDigit33
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit41
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit41/HumanRDigit42
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit41/HumanRDigit42/HumanRDigit43
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit51
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit51/HumanRDigit52
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRForearm/HumanRPalm/HumanRDigit51/HumanRDigit52/HumanRDigit53
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRCollarbone/HumanRUpperarm/HumanRSholder
+          1
+        weight: 1
+      - path: space_01_LOD0
+        weight: 1
+      - path: space_01_LOD0_head
+        weight: 1
+      - path: space_01_LOD1
+        weight: 1
+      - path: space_01_LOD2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages:
+    - .25
+    - .125
+    - .00999999978
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 151
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: HumanPelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanLThigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanRThigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanLCalf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanRCalf
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanLFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanRFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanSpine1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanSpine2
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanNeck1
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanHead
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanLCollarbone
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanRCollarbone
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanLUpperarm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanRUpperarm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanLForearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanRForearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanLPalm
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanRPalm
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanLDigit11
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanRDigit11
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanMouth
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanForehead
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanLDigit11 1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanLDigit12
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanLDigit13
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanLDigit21
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanLDigit22
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanLDigit23
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanLDigit31
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanLDigit32
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanLDigit33
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanLDigit41
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanLDigit42
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanLDigit43
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanLDigit51
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanLDigit52
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanLDigit53
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanRDigit11 1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanRDigit12
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanRDigit13
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanRDigit21
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanRDigit22
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanRDigit23
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanRDigit31
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanRDigit32
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanRDigit33
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanRDigit41
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanRDigit42
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanRDigit43
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanRDigit51
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanRDigit52
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanRDigit53
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Space_lite(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: HumanPelvis
+      position: {x: 4.99027983e-08, y: .998486698, z: -.0761198923}
+      rotation: {x: .499122649, y: -.500867248, z: -.499131203, w: .50087589}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: HumanLThigh
+      position: {x: -.0179471578, y: .0641758442, z: .134164304}
+      rotation: {x: .0218661297, y: .999484122, z: -.00587270269, w: .0227788854}
+      scale: {x: 1, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: HumanLCalf
+      position: {x: -.488507897, y: 3.81469718e-08, z: -1.90734859e-08}
+      rotation: {x: 9.90786793e-05, y: -1.91929871e-06, z: .0150717199, w: .999886453}
+      scale: {x: .999999821, y: .999999762, z: .999999821}
+      transformModified: 1
+    - name: HumanLFoot
+      position: {x: -.4961164, y: -9.53674295e-09, z: -1.90734859e-08}
+      rotation: {x: -.0617956519, y: -.0176518969, z: -.648420751, w: .758564591}
+      scale: {x: 1.00000012, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: HumanLDigit11
+      position: {x: -.155999988, y: 2.38418574e-09, z: 0}
+      rotation: {x: 1.06635527e-08, y: 3.25389351e-08, z: -.111871757, w: .993722677}
+      scale: {x: .99999994, y: 1, z: .99999994}
+      transformModified: 1
+    - name: HumanRThigh
+      position: {x: -.0179471578, y: .0641758367, z: -.134164318}
+      rotation: {x: .0218524225, y: .99948442, z: .00587312644, w: -.0227789711}
+      scale: {x: 1, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: HumanRCalf
+      position: {x: -.488507837, y: 3.81469718e-08, z: 0}
+      rotation: {x: -9.5780968e-05, y: -5.25777759e-05, z: .0152501138, w: .999883711}
+      scale: {x: .999999881, y: .999999821, z: .999999821}
+      transformModified: 1
+    - name: HumanRFoot
+      position: {x: -.49611643, y: -4.76837148e-09, z: 0}
+      rotation: {x: .0617478006, y: .0176709872, z: -.648550272, w: .758457303}
+      scale: {x: 1.00000024, y: 1.00000024, z: 1.00000024}
+      transformModified: 1
+    - name: HumanRDigit11
+      position: {x: -.156000003, y: 4.76837148e-09, z: 0}
+      rotation: {x: -3.21322013e-09, y: -1.83824032e-08, z: -.111871786, w: .993722677}
+      scale: {x: .99999994, y: .999999881, z: .999999881}
+      transformModified: 1
+    - name: HumanSpine1
+      position: {x: -.0476419069, y: -.00364509574, z: -9.04663455e-09}
+      rotation: {x: 3.88484889e-09, y: -1.21958479e-08, z: -.145005599, w: .989430845}
+      scale: {x: 1.00000024, y: 1.00000036, z: 1.00000012}
+      transformModified: 1
+    - name: HumanSpine2
+      position: {x: -.195023268, y: 0, z: -1.45519149e-13}
+      rotation: {x: -8.6814973e-09, y: 4.36646204e-08, z: .168506637, w: .985700548}
+      scale: {x: 1, y: 1, z: .999999881}
+      transformModified: 1
+    - name: HumanSpine3
+      position: {x: -.166133732, y: 4.76837148e-09, z: 0}
+      rotation: {x: -2.57778687e-09, y: -2.07384012e-08, z: .0728346258, w: .997344017}
+      scale: {x: 1, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: HumanRibcage
+      position: {x: -.178531483, y: 0, z: 0}
+      rotation: {x: 4.32662628e-10, y: -1.01660325e-08, z: -.0982804894, w: .995158792}
+      scale: {x: .999999523, y: .999999464, z: 1}
+      transformModified: 1
+    - name: Humanhelmet
+      position: {x: -.0913665742, y: .0749547333, z: 7.62460672e-08}
+      rotation: {x: 3.90774045e-11, y: 2.90555935e-08, z: 2.27372551e-13, w: 1}
+      scale: {x: .99999994, y: .999999881, z: .99999994}
+      transformModified: 1
+    - name: helmet_LOD1
+      position: {x: -0, y: -9.53674295e-09, z: -1.52587745e-07}
+      rotation: {x: -3.32183525e-08, y: 8.77745521e-08, z: .608761549, w: .793353319}
+      scale: {x: 1.16521108, y: 1.16521132, z: .9751001}
+      transformModified: 1
+    - name: HumanLCollarbone
+      position: {x: .0244258121, y: .169446096, z: .0437727571}
+      rotation: {x: .0578823835, y: .686821699, z: .161589235, w: .706268132}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: HumanLUpperarm
+      position: {x: -.185441285, y: 0, z: 0}
+      rotation: {x: .143083036, y: .000608709466, z: -.18926616, w: .971444905}
+      scale: {x: .99999994, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: HumanLForearm
+      position: {x: -.332945406, y: 0, z: 1.52587887e-07}
+      rotation: {x: -.02587335, y: .0055514127, z: -.00252915989, w: .999646604}
+      scale: {x: .99999994, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: HumanLPalm
+      position: {x: -.271375835, y: 0, z: -1.52587887e-07}
+      rotation: {x: -.704976678, y: -.0456913672, z: .00973776728, w: .707690179}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: HumanLDigit11 1
+      position: {x: -.018790435, y: -.0021559142, z: .0388779044}
+      rotation: {x: .455069572, y: .401258111, z: -.207764179, w: .76729238}
+      scale: {x: .99999994, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: HumanLDigit12
+      position: {x: -.0607199855, y: 3.81469718e-08, z: -1.52587887e-07}
+      rotation: {x: 1.76145747e-07, y: 1.16519118e-06, z: .0366610996, w: .999327779}
+      scale: {x: 1, y: .99999994, z: .999999821}
+      transformModified: 1
+    - name: HumanLDigit13
+      position: {x: -.0440470874, y: -1.90734859e-08, z: 0}
+      rotation: {x: 1.48286867e-08, y: 6.20762179e-08, z: .130742431, w: .991416395}
+      scale: {x: 1.00000012, y: 1.00000024, z: 1.00000024}
+      transformModified: 1
+    - name: HumanLDigit21
+      position: {x: -.11299324, y: .00538681028, z: .0543113314}
+      rotation: {x: .0200933553, y: .0510653593, z: -.00874577928, w: .998454869}
+      scale: {x: 1, y: .999999821, z: .999999881}
+      transformModified: 1
+    - name: HumanLDigit22
+      position: {x: -.0560981743, y: 0, z: 0}
+      rotation: {x: .0272712242, y: -.0205657464, z: -.00176589726, w: .999414921}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1.00000024}
+      transformModified: 1
+    - name: HumanLDigit23
+      position: {x: -.0363494866, y: 0, z: 0}
+      rotation: {x: .0185596962, y: -.0286741182, z: .0989856645, w: .994502485}
+      scale: {x: .99999994, y: 1, z: .99999994}
+      transformModified: 1
+    - name: HumanLDigit31
+      position: {x: -.113851547, y: .00365554797, z: .0224923324}
+      rotation: {x: .00624233857, y: .0222066846, z: .0135048497, w: .99964267}
+      scale: {x: 1, y: .99999994, z: .999999821}
+      transformModified: 1
+    - name: HumanLDigit32
+      position: {x: -.064490892, y: 0, z: 1.90734859e-08}
+      rotation: {x: .00658222521, y: -.00685800193, z: .0382980146, w: .999221146}
+      scale: {x: .99999994, y: .999999881, z: 1}
+      transformModified: 1
+    - name: HumanLDigit33
+      position: {x: -.0363129415, y: 0, z: 1.90734859e-08}
+      rotation: {x: .000171954161, y: -.0182620566, z: .00377802341, w: .999826074}
+      scale: {x: .999999881, y: .99999994, z: 1}
+      transformModified: 1
+    - name: HumanLDigit41
+      position: {x: -.115610041, y: .00417373655, z: -.0139835356}
+      rotation: {x: -.00236947532, y: .0251065232, z: .016828781, w: .999540329}
+      scale: {x: 1, y: .999999762, z: .99999994}
+      transformModified: 1
+    - name: HumanLDigit42
+      position: {x: -.0535892472, y: 1.52587887e-07, z: -9.53674295e-09}
+      rotation: {x: .000398577075, y: -.0121257817, z: .0395142697, w: .999145389}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: HumanLDigit43
+      position: {x: -.0319898985, y: 1.52587887e-07, z: 0}
+      rotation: {x: -.00368064479, y: -.012891815, z: .00336896256, w: .999904454}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: HumanLDigit51
+      position: {x: -.111574627, y: 1.14440918e-05, z: -.0489924215}
+      rotation: {x: .00399263063, y: .0204393752, z: .00463648327, w: .99977237}
+      scale: {x: 1, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: HumanLDigit52
+      position: {x: -.0488504767, y: -1.52587887e-07, z: 1.90734859e-08}
+      rotation: {x: .000638403988, y: -.00895971991, z: .0393853001, w: .999183714}
+      scale: {x: .99999994, y: 1, z: 1}
+      transformModified: 1
+    - name: HumanLDigit53
+      position: {x: -.0291735828, y: 0, z: 0}
+      rotation: {x: -.00266975537, y: -.00920809899, z: .0466523431, w: .998865187}
+      scale: {x: 1.00000012, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: HumanRSholder
+      position: {x: -.0266160574, y: -.00325468066, z: -.0611758418}
+      rotation: {x: -2.23517382e-08, y: -1.02445492e-08, z: 2.79396772e-09, w: 1}
+      scale: {x: .99999994, y: 1.00000012, z: 1.00000024}
+      transformModified: 1
+    - name: HumanNeck1
+      position: {x: -.000827789307, y: -.00364509574, z: -7.0003443e-09}
+      rotation: {x: 3.60088004e-09, y: .00106045161, z: -.122809306, w: .992429733}
+      scale: {x: .99999994, y: 1, z: .99999994}
+      transformModified: 1
+    - name: HumanNeck2
+      position: {x: -.0527642816, y: -3.81469718e-08, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: .99999994, z: 1}
+      transformModified: 1
+    - name: HumanHead
+      position: {x: -.0527644344, y: -3.81469718e-08, z: 0}
+      rotation: {x: -7.25309146e-09, y: -.00106042274, z: .122809298, w: .992429733}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: HumanEyeL
+      position: {x: -.0595619194, y: .131549105, z: .0320783071}
+      rotation: {x: -4.14239037e-13, y: -3.36453223e-13, z: -.68536669, w: .728198111}
+      scale: {x: 1, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: HumanEyeR
+      position: {x: -.0595619194, y: .131549105, z: -.0315062962}
+      rotation: {x: -4.14239037e-13, y: -3.36453223e-13, z: -.68536669, w: .728198111}
+      scale: {x: 1, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: HumanForehead
+      position: {x: -.086032711, y: .0937304869, z: -1.41374761e-08}
+      rotation: {x: 4.69978711e-13, y: 4.49995103e-13, z: -.683457792, w: .729990125}
+      scale: {x: 1, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: HumanMouth
+      position: {x: -.00929824822, y: .0481670126, z: 9.31322519e-11}
+      rotation: {x: 8.60148134e-14, y: 4.70809372e-13, z: -.862228155, w: .506520212}
+      scale: {x: 1, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: HumanRCollarbone
+      position: {x: .0244258121, y: .169446081, z: -.0437727571}
+      rotation: {x: -.0578824133, y: -.686821818, z: .161589235, w: .706267953}
+      scale: {x: 1, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: HumanRUpperarm
+      position: {x: -.1854413, y: 0, z: 0}
+      rotation: {x: -.143072635, y: -.000611038413, z: -.189265877, w: .971446514}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: HumanRForearm
+      position: {x: -.332945466, y: 0, z: 0}
+      rotation: {x: .0258734468, y: -.00555054145, z: -.0025292167, w: .999646604}
+      scale: {x: .999999821, y: .999999762, z: .99999994}
+      transformModified: 1
+    - name: HumanRPalm
+      position: {x: -.271375835, y: -1.90734859e-08, z: 0}
+      rotation: {x: .704977334, y: .0456910357, z: .00973704644, w: .707689524}
+      scale: {x: 1, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: HumanRDigit11 1
+      position: {x: -.0187905878, y: -.0021557617, z: -.0388778858}
+      rotation: {x: -.455072075, y: -.401261568, z: -.207757846, w: .76729095}
+      scale: {x: .999999881, y: .99999994, z: 1.00000012}
+      transformModified: 1
+    - name: HumanRDigit12
+      position: {x: -.0607199855, y: 3.81469718e-08, z: 1.52587887e-07}
+      rotation: {x: -1.53477764e-08, y: 4.63735034e-07, z: .0366595499, w: .999327838}
+      scale: {x: 1, y: .99999994, z: .999999762}
+      transformModified: 1
+    - name: HumanRDigit13
+      position: {x: -.0440471247, y: -1.90734859e-08, z: -1.52587887e-07}
+      rotation: {x: -5.90007776e-09, y: -1.58082418e-08, z: .130742446, w: .991416395}
+      scale: {x: 1.00000012, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: HumanRDigit21
+      position: {x: -.112993315, y: .00538681028, z: -.05431135}
+      rotation: {x: -.0200903807, y: -.0510685369, z: -.00874664541, w: .99845475}
+      scale: {x: .99999994, y: .999999881, z: .999999821}
+      transformModified: 1
+    - name: HumanRDigit22
+      position: {x: -.0560981743, y: 0, z: 0}
+      rotation: {x: -.0272692312, y: .0205620434, z: -.0017669769, w: .9994151}
+      scale: {x: 1, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: HumanRDigit23
+      position: {x: -.0363494121, y: 3.05175774e-07, z: 0}
+      rotation: {x: -.0185589306, y: .0286699682, z: .0989846513, w: .994502723}
+      scale: {x: .999999762, y: .999999821, z: .99999994}
+      transformModified: 1
+    - name: HumanRDigit31
+      position: {x: -.113851465, y: .00365570071, z: -.0224923324}
+      rotation: {x: -.00623957068, y: -.0222072341, z: .0135046244, w: .999642789}
+      scale: {x: .999999821, y: .99999994, z: .999999762}
+      transformModified: 1
+    - name: HumanRDigit32
+      position: {x: -.0644909665, y: -1.52587887e-07, z: 0}
+      rotation: {x: -.00658085663, y: .00685665058, z: .0383033343, w: .999220967}
+      scale: {x: 1.00000024, y: .99999994, z: 1.00000012}
+      transformModified: 1
+    - name: HumanRDigit33
+      position: {x: -.036312867, y: 1.52587887e-07, z: 1.90734859e-08}
+      rotation: {x: -.000172125641, y: .0182575099, z: .00377733936, w: .999826193}
+      scale: {x: 1, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: HumanRDigit41
+      position: {x: -.115610123, y: .00417388929, z: .013983516}
+      rotation: {x: .00237239175, y: -.025106255, z: .016828591, w: .999540329}
+      scale: {x: .999999881, y: .99999994, z: .999999881}
+      transformModified: 1
+    - name: HumanRDigit42
+      position: {x: -.0535892472, y: 0, z: -9.53674295e-09}
+      rotation: {x: -.000396978867, y: .0121224057, z: .0395155326, w: .999145329}
+      scale: {x: .99999994, y: 1, z: 1}
+      transformModified: 1
+    - name: HumanRDigit43
+      position: {x: -.031989973, y: 0, z: -9.53674295e-09}
+      rotation: {x: .00368069531, y: .0128875272, z: .00336850458, w: .999904513}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: HumanRDigit51
+      position: {x: -.111574627, y: 1.12915041e-05, z: .0489924029}
+      rotation: {x: -.00398973888, y: -.0204394609, z: .00463674404, w: .99977237}
+      scale: {x: .99999994, y: .999999881, z: .999999821}
+      transformModified: 1
+    - name: HumanRDigit52
+      position: {x: -.0488504767, y: 0, z: 1.90734859e-08}
+      rotation: {x: -.00063690549, y: .00895785913, z: .0393851362, w: .999183834}
+      scale: {x: 1.00000024, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: HumanRDigit53
+      position: {x: -.0291737355, y: 0, z: -1.90734859e-08}
+      rotation: {x: .00266995933, y: .00920515042, z: .0466521084, w: .998865247}
+      scale: {x: .99999994, y: .999999762, z: .999999881}
+      transformModified: 1
+    - name: HumanRSholder 1
+      position: {x: -.0266159996, y: -.00325469952, z: .0611758418}
+      rotation: {x: -4.33680921e-19, y: -9.31322686e-10, z: -4.65661343e-10, w: 1}
+      scale: {x: .99999994, y: .999999821, z: 1}
+      transformModified: 1
+    - name: space_01_LOD1
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: space_01_LOD2
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
