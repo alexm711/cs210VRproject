@@ -3,7 +3,7 @@ using System.Collections;
 
 public class JetpackSoundManager : MonoBehaviour {
     public static JetpackSoundManager instance = null;
-    public float multiple = 10f;
+    public float multiple = 0f;
 
 
     // Use this for initialization
