@@ -7149,7 +7149,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 300, y: 60}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.25, y: 0.00390625}
+  savedTextUV0: {x: 0, y: 0.08984375}
 --- !u!114 &590822888
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10410,55 +10410,55 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22400004, guid: a672d635a9a33ae45b3201a2307af5f0, type: 2}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 22400004, guid: a672d635a9a33ae45b3201a2307af5f0, type: 2}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 22400004, guid: a672d635a9a33ae45b3201a2307af5f0, type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 22400004, guid: a672d635a9a33ae45b3201a2307af5f0, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 22400004, guid: a672d635a9a33ae45b3201a2307af5f0, type: 2}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: 22400004, guid: a672d635a9a33ae45b3201a2307af5f0, type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 22400002, guid: a672d635a9a33ae45b3201a2307af5f0, type: 2}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 22400002, guid: a672d635a9a33ae45b3201a2307af5f0, type: 2}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 22400002, guid: a672d635a9a33ae45b3201a2307af5f0, type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 53
       objectReference: {fileID: 0}
     - target: {fileID: 22400002, guid: a672d635a9a33ae45b3201a2307af5f0, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 22400002, guid: a672d635a9a33ae45b3201a2307af5f0, type: 2}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 72
       objectReference: {fileID: 0}
     - target: {fileID: 22400002, guid: a672d635a9a33ae45b3201a2307af5f0, type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 22400000, guid: a672d635a9a33ae45b3201a2307af5f0, type: 2}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 191
       objectReference: {fileID: 0}
     - target: {fileID: 22400006, guid: a672d635a9a33ae45b3201a2307af5f0, type: 2}
       propertyPath: m_LocalScale.x
@@ -13652,7 +13652,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
