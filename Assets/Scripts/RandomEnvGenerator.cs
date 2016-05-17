@@ -28,7 +28,7 @@ public class RandomEnvGenerator : MonoBehaviour {
             }
 
             int j = Random.Range(0, asteroids.Length);
-            Rigidbody thing = (Rigidbody)Instantiate(asteroids[j], position, Quaternion.identity);
+            Instantiate(asteroids[j], position, Quaternion.identity);
         }
     }
 
