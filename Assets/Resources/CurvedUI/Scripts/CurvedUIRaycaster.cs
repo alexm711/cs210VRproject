@@ -434,6 +434,7 @@ namespace CurvedUI
 
                     mf.mesh = meshie;
                     mc.sharedMesh = meshie;
+                    mc.convex = true;
 
                     return mc as Collider;
                 }
@@ -462,6 +463,7 @@ namespace CurvedUI
 
                     mf.mesh = meshie;
                     mc.sharedMesh = meshie;
+                    mc.convex = true;
 
                     return mc as Collider;
                 }

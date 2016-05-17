@@ -4787,7 +4787,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 150, y: 9.014098}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0, y: 0.001953125}
+  savedTextUV0: {x: 0, y: 0.00390625}
 --- !u!114 &414906759
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7149,7 +7149,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 300, y: 60}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0, y: 0.00390625}
+  savedTextUV0: {x: 0.25, y: 0.00390625}
 --- !u!114 &590822888
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13516,7 +13516,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 300, y: 100}
   savedColor: {r: 0, g: 0, b: 0, a: 1}
-  savedTextUV0: {x: 0.2109375, y: 0.087890625}
+  savedTextUV0: {x: 0.00390625, y: 0.19140625}
 --- !u!114 &1150663246
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13589,6 +13589,7 @@ MonoBehaviour:
   songs:
   - {fileID: 8300000, guid: 45c7d9c825472a54b9fa48d30e76b318, type: 3}
   - {fileID: 8300000, guid: eb9db7d0592ed8e48bca6d759b50c3bf, type: 3}
+  dialogue: {fileID: 0}
 --- !u!82 &1152331783
 AudioSource:
   m_ObjectHideFlags: 0
@@ -14219,7 +14220,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 160, y: 30}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.05078125, y: 0.01953125}
+  savedTextUV0: {x: 0.05078125, y: 0.0390625}
 --- !u!114 &1206821802
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18374,6 +18375,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0fc98a7e5f95964392167efc46e3fb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  multiple: 0
 --- !u!1 &1582620261
 GameObject:
   m_ObjectHideFlags: 0
@@ -21080,7 +21082,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e62188adca544cf1b96ccf1630f15f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  savedPos: {x: 0, y: 0.000000029802322, z: 0.0075511076}
+  savedPos: {x: 8.873693, y: -0.03483965, z: 1282.2788}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 15, y: 15}
   savedColor: {r: 1, g: 1, b: 1, a: 0.647}
@@ -21484,7 +21486,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 160, y: 30}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.05078125, y: 0.01953125}
+  savedTextUV0: {x: 0.05078125, y: 0.0390625}
 --- !u!114 &1907131972
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23612,7 +23614,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 160, y: 30}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.05078125, y: 0.01953125}
+  savedTextUV0: {x: 0.05078125, y: 0.0390625}
 --- !u!114 &2102231377
 MonoBehaviour:
   m_ObjectHideFlags: 0
