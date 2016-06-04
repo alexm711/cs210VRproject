@@ -14160,7 +14160,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 300, y: 100}
   savedColor: {r: 0, g: 0, b: 0, a: 1}
-  savedTextUV0: {x: 0.00390625, y: 0.19140625}
+  savedTextUV0: {x: 0.05078125, y: 0.0390625}
 --- !u!114 &1150663246
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14873,7 +14873,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 160, y: 30}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.05078125, y: 0.0390625}
+  savedTextUV0: {x: 0.234375, y: 0.00390625}
 --- !u!114 &1206821802
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18362,6 +18362,7 @@ GameObject:
   - 4: {fileID: 1521829129}
   - 114: {fileID: 1521829128}
   - 114: {fileID: 1521829131}
+  - 114: {fileID: 1521829130}
   m_Layer: 0
   m_Name: Dialogue Manager
   m_TagString: Untagged
@@ -18381,7 +18382,7 @@ MonoBehaviour:
   m_Script: {fileID: -1229025713, guid: b5a7519e94754fb4a8ea0c272031db78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialDatabase: {fileID: 11400000, guid: a642cfb5dfa2f1e4a86c49b621ab85b3, type: 2}
+  initialDatabase: {fileID: 11400000, guid: d6a9c185283bca14b8e54c721a6f0cd0, type: 2}
   displaySettings:
     conversationOverrideSettings:
       useOverrides: 0
@@ -18435,7 +18436,7 @@ MonoBehaviour:
       - Xbox_360_X
       - Xbox_360_DpadX
       cancel:
-        key: 32
+        key: 330
         buttonName: 
       cancelConversation:
         key: 27
@@ -18463,6 +18464,33 @@ Transform:
   - {fileID: 2141613636}
   m_Father: {fileID: 0}
   m_RootOrder: 4
+--- !u!114 &1521829130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1521829127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 567319595, guid: b5a7519e94754fb4a8ea0c272031db78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  once: 0
+  conversation: KaleidoscopeDialogue
+  condition:
+    luaConditions: []
+    questConditions: []
+    acceptedTags: []
+    acceptedGameObjects: []
+    luaWizardIndex: -1
+  skipIfNoValidEntries: 0
+  exclusive: 0
+  conversant: {fileID: 0}
+  useConversationTitlePicker: 1
+  selectedDatabase: {fileID: 11400000, guid: d6a9c185283bca14b8e54c721a6f0cd0, type: 2}
+  actor: {fileID: 0}
+  trigger: 16
+  stopConversationOnTriggerExit: 0
 --- !u!114 &1521829131
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22524,7 +22552,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 160, y: 30}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.05078125, y: 0.0390625}
+  savedTextUV0: {x: 0.234375, y: 0.00390625}
 --- !u!114 &1907131972
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24823,7 +24851,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 160, y: 30}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.05078125, y: 0.0390625}
+  savedTextUV0: {x: 0.234375, y: 0.00390625}
 --- !u!114 &2102231377
 MonoBehaviour:
   m_ObjectHideFlags: 0
