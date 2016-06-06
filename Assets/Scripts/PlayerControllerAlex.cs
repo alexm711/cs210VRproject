@@ -146,13 +146,14 @@ public class PlayerControllerAlex : MonoBehaviour {
         if (Input.GetButton("Xbox_360_B") || ((Input.GetAxis("Xbox_360_RightTrigger") != 0) && (Input.GetAxis("Xbox_360_LeftTrigger") != 0))) {
             Vector3 temp = applyBoost(rb.velocity.normalized) * -translation_acceleration * Time.deltaTime;
             rb.AddForce(temp);
-            return temp;
             rb.AddTorque(rb.angularVelocity.normalized * -rotation_acceleration * Time.deltaTime);
             if (rb.angularVelocity.magnitude < braking_rotation_threshold)
                 rb.angularVelocity = Vector3.zero;
             if (rb.velocity.magnitude < braking_translation_threshold)
                 rb.velocity = Vector3.zero;
-          
+            return temp;
+
+
             //Debug.Log(rb.velocity.magnitude);
         }
         return Vector3.zero;

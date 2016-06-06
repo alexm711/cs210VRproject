@@ -351,8 +351,34 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 1abb3cdb80a5e64429d266b27474420d, type: 3}
+--- !u!114 &35352466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 35352460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f26e6c975b22f24b9a8839932a5b040, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!54 &35352467
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 35352460}
+  serializedVersion: 2
+  m_Mass: 100
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &45160212
 GameObject:
   m_ObjectHideFlags: 0
@@ -1403,6 +1429,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &79404037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 79404030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f26e6c975b22f24b9a8839932a5b040, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &90084133
 GameObject:
   m_ObjectHideFlags: 0
@@ -7677,7 +7714,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 300, y: 60}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.25, y: 0.00390625}
+  savedTextUV0: {x: 0.00390625, y: 0.33203125}
 --- !u!114 &590822888
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10554,7 +10591,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071067}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 2.4999993, y: 99.99998, z: 100}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
   m_Children: []
   m_Father: {fileID: 217357558}
   m_RootOrder: 5
@@ -14621,7 +14658,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 300, y: 100}
   savedColor: {r: 0, g: 0, b: 0, a: 1}
-  savedTextUV0: {x: 0.05078125, y: 0.0390625}
+  savedTextUV0: {x: 0.00390625, y: 0.19140625}
 --- !u!114 &1150663246
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15128,7 +15165,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 160, y: 30}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.234375, y: 0.00390625}
+  savedTextUV0: {x: 0.05078125, y: 0.0390625}
 --- !u!114 &1206821802
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17413,6 +17450,8 @@ GameObject:
   - 135: {fileID: 1396747405}
   - 23: {fileID: 1396747404}
   - 114: {fileID: 1396747403}
+  - 114: {fileID: 1396747407}
+  - 54: {fileID: 1396747408}
   m_Layer: 0
   m_Name: Globe
   m_TagString: Untagged
@@ -17494,6 +17533,32 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1396747401}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1396747407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1396747401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f26e6c975b22f24b9a8839932a5b040, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!54 &1396747408
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1396747401}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1411342987
 GameObject:
   m_ObjectHideFlags: 0
@@ -18327,6 +18392,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 124feb5499ea536408bbfa97633771af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1468407268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1468407259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f26e6c975b22f24b9a8839932a5b040, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1486557831
@@ -20254,7 +20330,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071067}
   m_LocalPosition: {x: 0, y: 40, z: -50}
   m_LocalScale: {x: 2.5, y: 80, z: 100}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
   m_Children: []
   m_Father: {fileID: 217357558}
   m_RootOrder: 3
@@ -21476,6 +21552,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   smooth: 5.41
   distance: 2.32
+  maxDistance: 10
   springforce: 50
   dampeningRatio: 5
   drag: 10
@@ -22445,6 +22522,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 124feb5499ea536408bbfa97633771af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1866031546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1866031542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f26e6c975b22f24b9a8839932a5b040, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!54 &1866031548
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -23123,7 +23211,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 160, y: 30}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.234375, y: 0.00390625}
+  savedTextUV0: {x: 0.05078125, y: 0.0390625}
 --- !u!114 &1907131972
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23335,6 +23423,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1919973341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1919973334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f26e6c975b22f24b9a8839932a5b040, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1930165730
 GameObject:
   m_ObjectHideFlags: 0
@@ -25444,7 +25543,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 160, y: 30}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.234375, y: 0.00390625}
+  savedTextUV0: {x: 0.05078125, y: 0.0390625}
 --- !u!114 &2102231377
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -7,6 +7,8 @@ public class PickUpRigidBody : MonoBehaviour {
     GameObject carriedObject;
     public float smooth;
     public float distance;
+    public float maxDistance;
+    float currdistance;
 
     public float springforce = 50.0f;
 
@@ -31,7 +33,18 @@ public class PickUpRigidBody : MonoBehaviour {
         if (!Physics.Raycast(ray, out hit))
             return;
         pickupable p = hit.collider.GetComponent<pickupable>();
-        if(p == null) return;
+        currdistance = Vector3.Distance(hit.point, mainCamera.transform.position);
+        if (currdistance > maxDistance)
+        {
+            if (Input.GetButton("Xbox_360_LeftStickClick"))
+            {
+                currdistance = distance;
+            }else
+            {
+                return;
+            }
+        }
+        if (p == null) return;
         carrying = true;
         if (!springJoint){
             GameObject obj = new GameObject("Rigidbody dragger");
@@ -64,7 +77,7 @@ public class PickUpRigidBody : MonoBehaviour {
         //
         while (Input.GetButton("Xbox_360_RightStickClick"))
         {
-            springJoint.transform.position = Vector3.Lerp(springJoint.transform.position, mainCamera.transform.position + mainCamera.transform.forward * distance, Time.deltaTime * smooth);
+            springJoint.transform.position = Vector3.Lerp(springJoint.transform.position, mainCamera.transform.position + mainCamera.transform.forward * currdistance, Time.deltaTime * smooth);
             yield return null;
         }
 
