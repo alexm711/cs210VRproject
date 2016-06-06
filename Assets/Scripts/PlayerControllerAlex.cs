@@ -73,26 +73,26 @@ public class PlayerControllerAlex : MonoBehaviour {
         return force;
     }
 
-	//GameObject ClosestObject(){
-	//	GameObject[] cands;
-	//	cands = GameObject.FindGameObjectsWithTag ("GravityWell");
-	//	GameObject closest = cands[0];
-	//	float distance = Mathf.Infinity;
-	//	Vector3 position = transform.position;
-	//	foreach (GameObject cand in cands) {
-	//		Vector3 diff = cand.transform.position - position;
-	//		float curDistance = diff.sqrMagnitude;
-	//		if (curDistance < distance) {
-	//			closest = cand;
-	//			distance = curDistance;
-	//		}
-	//	}
-	//	return closest;
-	//}
+    //GameObject ClosestObject(){
+    //	GameObject[] cands;
+    //	cands = GameObject.FindGameObjectsWithTag ("GravityWell");
+    //	GameObject closest = cands[0];
+    //	float distance = Mathf.Infinity;
+    //	Vector3 position = transform.position;
+    //	foreach (GameObject cand in cands) {
+    //		Vector3 diff = cand.transform.position - position;
+    //		float curDistance = diff.sqrMagnitude;
+    //		if (curDistance < distance) {
+    //			closest = cand;
+    //			distance = curDistance;
+    //		}
+    //	}
+    //	return closest;
+    //}
 
-	//void PickUpObject(){}
-		
-    void translationalMovement(Rigidbody rb, bool touching_floor = false)
+    //void PickUpObject(){}
+
+    Vector3 translationalMovement(Rigidbody rb, bool touching_floor = false)
     {
         //Up and down
         float rt = Input.GetAxis("Xbox_360_RightTrigger");
@@ -105,13 +105,16 @@ public class PlayerControllerAlex : MonoBehaviour {
             if (fixed_linear_speed == true || (fix_to_floor && touching_floor))  {
                 rb.velocity = magnitude * translation_velocity;
             } else {
-                rb.AddForce(magnitude * translation_acceleration);
+                Vector3 temp = magnitude * translation_acceleration;
+                rb.AddForce(temp);
+                //playSound(temp, true);
+                return temp;
             }
         }
         else if (fixed_linear_speed == true || (fix_to_floor && touching_floor)) { rb.velocity = Vector3.zero; }
-        playSound(magnitude, true);
+        return Vector3.zero;
     }
-    void rotationalMovement(Rigidbody rb, bool touching_floor = false)
+    Vector3 rotationalMovement(Rigidbody rb, bool touching_floor = false)
     {
         Vector3 force;
         float rsx = Input.GetAxis("Xbox_360_RightJoystickX");
@@ -127,14 +130,16 @@ public class PlayerControllerAlex : MonoBehaviour {
                 transform.RotateAround(transform.position, transform.up, rsx * rotation_velocity * Time.deltaTime);
             }else if (fixed_angular_speed == true){
                 rb.angularVelocity = force * rotation_velocity;
-
             }else {
-                rb.AddTorque(force * rotation_acceleration);
+                Vector3 temp = force * rotation_acceleration;
+                rb.AddTorque(temp);
+                return temp;
+                //playSound(temp, false);
             }
-            //playSound(force, false);
 
         }
         else if (fixed_angular_speed == true || (fix_to_floor && touching_floor)) { rb.angularVelocity = Vector3.zero; }
+        return Vector3.zero;
     }
 
 void braking(Rigidbody rb){
@@ -191,6 +196,8 @@ void braking(Rigidbody rb){
                 }
                 translationalMovement(rb, isGrounded);
                 rotationalMovement(rb, isGrounded);
+                playSound(translationalMovement(rb), rotationalMovement(rb), !isGrounded&&!fixed_angular_speed, !isGrounded && !fixed_linear_speed);
+
                 braking(rb);
                 myNormal = Vector3.Slerp(myNormal, surfaceNormal, slerpSpeed * Time.deltaTime).normalized;
                 Vector3 myForward = Vector3.Cross(transform.right, myNormal);
@@ -204,8 +211,7 @@ void braking(Rigidbody rb){
 
             }
 		} else {
-            translationalMovement(rb);
-            rotationalMovement(rb);
+            playSound(translationalMovement(rb), rotationalMovement(rb), !fixed_angular_speed, !fixed_linear_speed);
             braking(rb);
 	
 
@@ -259,11 +265,12 @@ void braking(Rigidbody rb){
         //}
     }
 
-    void playSound(Vector3 force,bool isLinear)
+    void playSound(Vector3 linforce, Vector3 angforce, bool isAngular, bool isLinear)
     {
-        JetpackSoundManager.instance.PlayLatSound(force);
-        SoundManager.instance.playSoundEffect(forwardSound);
-        SoundManager.instance.playSoundEffect(backSound);
+        if (isAngular || isLinear)
+            JetpackSoundManager.instance.PlayJetpack( linforce,  angforce,  isAngular,  isLinear);
+        //SoundManager.instance.playSoundEffect(forwardSound);
+        //SoundManager.instance.playSoundEffect(backSound);
 
     }
 

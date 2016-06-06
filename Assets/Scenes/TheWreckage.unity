@@ -804,7 +804,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -1397,7 +1397,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 40
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -3391,11 +3391,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 828bd8422044464419faff226d038db4, type: 3}
+  m_audioClip: {fileID: 8300000, guid: a0d1a51c6df04f04a9f83db0dfdfc92c, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   Priority: 128
@@ -7574,7 +7574,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 300, y: 60}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.25, y: 0.00390625}
+  savedTextUV0: {x: 0, y: 0.00390625}
 --- !u!114 &590822888
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8661,7 +8661,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 5
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -10046,7 +10046,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -10315,7 +10315,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 1000
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -12221,7 +12221,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -12603,11 +12603,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 828bd8422044464419faff226d038db4, type: 3}
+  m_audioClip: {fileID: 8300000, guid: a0d1a51c6df04f04a9f83db0dfdfc92c, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   Priority: 128
@@ -13630,7 +13630,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -14312,7 +14312,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 300, y: 100}
   savedColor: {r: 0, g: 0, b: 0, a: 1}
-  savedTextUV0: {x: 0.05078125, y: 0.0390625}
+  savedTextUV0: {x: 0.00390625, y: 0.19140625}
 --- !u!114 &1150663246
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14511,11 +14511,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 828bd8422044464419faff226d038db4, type: 3}
+  m_audioClip: {fileID: 8300000, guid: a0d1a51c6df04f04a9f83db0dfdfc92c, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   Priority: 103
@@ -14873,11 +14873,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 828bd8422044464419faff226d038db4, type: 3}
+  m_audioClip: {fileID: 8300000, guid: a0d1a51c6df04f04a9f83db0dfdfc92c, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   Priority: 128
@@ -15025,7 +15025,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 160, y: 30}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.234375, y: 0.00390625}
+  savedTextUV0: {x: 0.05078125, y: 0.0390625}
 --- !u!114 &1206821802
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15324,7 +15324,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 1000
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -18636,7 +18636,7 @@ MonoBehaviour:
       - Xbox_360_X
       - Xbox_360_DpadX
       cancel:
-        key: 330
+        key: 332
         buttonName: 
       cancelConversation:
         key: 331
@@ -19561,7 +19561,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0fc98a7e5f95964392167efc46e3fb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  multiple: 0
+  multiple: 10
 --- !u!1 &1582620261
 GameObject:
   m_ObjectHideFlags: 0
@@ -20998,7 +20998,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: d9c3ddf4384463e4aadd2d916e9d50fd, type: 3}
 --- !u!114 &1760002290
 MonoBehaviour:
@@ -21031,7 +21031,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -21062,17 +21062,6 @@ MonoBehaviour:
   gameOverSound: {fileID: 0}
   forwardSound: {fileID: 0}
   backSound: {fileID: 0}
---- !u!114 &1760549611
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1760549606}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9e5860399b2bba42a7f726bf576e9a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!82 &1760549612
 AudioSource:
   m_ObjectHideFlags: 0
@@ -21159,7 +21148,7 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.6
   m_Center: {x: 0, y: 0.02, z: 0}
---- !u!114 &1760549614
+--- !u!114 &1760549615
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -21167,11 +21156,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1760549606}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 92edc3f7225e2824e86d59f31d56e78e, type: 3}
+  m_Script: {fileID: 11500000, guid: 319c9365665b4714f906eeff6141707a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distance: 3
-  smooth: 4
+  smooth: 5.41
+  distance: 2.32
+  springforce: 50
+  dampeningRatio: 5
+  drag: 10
+  angularDrag: 5
 --- !u!4 &1773062257 stripped
 Transform:
   m_PrefabParentObject: {fileID: 477410, guid: a7933e47d83c37c4e8e47d5043ab756b, type: 2}
@@ -22043,7 +22036,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -22712,7 +22705,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 160, y: 30}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.234375, y: 0.00390625}
+  savedTextUV0: {x: 0.05078125, y: 0.0390625}
 --- !u!114 &1907131972
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22918,7 +22911,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 1000
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -25033,7 +25026,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 160, y: 30}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.234375, y: 0.00390625}
+  savedTextUV0: {x: 0.05078125, y: 0.0390625}
 --- !u!114 &2102231377
 MonoBehaviour:
   m_ObjectHideFlags: 0
