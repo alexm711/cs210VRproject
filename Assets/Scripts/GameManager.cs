@@ -85,6 +85,6 @@ public class GameManager : MonoBehaviour {
 
 		}
 
-		Debug.Log("GAMEMANAGER:: TimeScale: " + Time.timeScale);
+		//Debug.Log("GAMEMANAGER:: TimeScale: " + Time.timeScale);
 	}
 }

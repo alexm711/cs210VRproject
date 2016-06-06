@@ -142,19 +142,24 @@ public class PlayerControllerAlex : MonoBehaviour {
         return Vector3.zero;
     }
 
-void braking(Rigidbody rb){
+    Vector3 braking(Rigidbody rb){
         if (Input.GetButton("Xbox_360_B") || ((Input.GetAxis("Xbox_360_RightTrigger") != 0) && (Input.GetAxis("Xbox_360_LeftTrigger") != 0))) {
-            rb.AddForce(applyBoost(rb.velocity.normalized) * -translation_acceleration * Time.deltaTime);
+            Vector3 temp = applyBoost(rb.velocity.normalized) * -translation_acceleration * Time.deltaTime;
+            rb.AddForce(temp);
+            return temp;
             rb.AddTorque(rb.angularVelocity.normalized * -rotation_acceleration * Time.deltaTime);
             if (rb.angularVelocity.magnitude < braking_rotation_threshold)
                 rb.angularVelocity = Vector3.zero;
             if (rb.velocity.magnitude < braking_translation_threshold)
                 rb.velocity = Vector3.zero;
+          
             //Debug.Log(rb.velocity.magnitude);
         }
+        return Vector3.zero;
+
     }
 
- 
+
     void move() {
         rb = GetComponent<Rigidbody>();
   //      Vector3 cameraForwardDirection = GameObject.FindObjectOfType<Camera>().transform.forward;
@@ -194,11 +199,9 @@ void braking(Rigidbody rb){
                     detach = true;
                     surfaceNormal = transform.up;
                 }
-                translationalMovement(rb, isGrounded);
                 rotationalMovement(rb, isGrounded);
-                playSound(translationalMovement(rb), rotationalMovement(rb), !isGrounded&&!fixed_angular_speed, !isGrounded && !fixed_linear_speed);
+                playSound(translationalMovement(rb, isGrounded), braking(rb), !isGrounded && !fixed_linear_speed);
 
-                braking(rb);
                 myNormal = Vector3.Slerp(myNormal, surfaceNormal, slerpSpeed * Time.deltaTime).normalized;
                 Vector3 myForward = Vector3.Cross(transform.right, myNormal);
                 Quaternion targetRot = Quaternion.LookRotation(myForward, myNormal);
@@ -211,8 +214,8 @@ void braking(Rigidbody rb){
 
             }
 		} else {
-            playSound(translationalMovement(rb), rotationalMovement(rb), !fixed_angular_speed, !fixed_linear_speed);
-            braking(rb);
+            rotationalMovement(rb);
+            playSound(translationalMovement(rb), braking(rb), !fixed_linear_speed);
 	
 
 			if (Input.GetButtonDown ("Xbox_360_Y")) {
@@ -265,10 +268,10 @@ void braking(Rigidbody rb){
         //}
     }
 
-    void playSound(Vector3 linforce, Vector3 angforce, bool isAngular, bool isLinear)
+    void playSound(Vector3 linforce, Vector3 braking, bool isLinear)
     {
-        if (isAngular || isLinear)
-            JetpackSoundManager.instance.PlayJetpack( linforce,  angforce,  isAngular,  isLinear);
+        if (isLinear)
+            JetpackSoundManager.instance.PlayJetpack( linforce - braking,    isLinear);
         //SoundManager.instance.playSoundEffect(forwardSound);
         //SoundManager.instance.playSoundEffect(backSound);
 
@@ -280,7 +283,7 @@ void braking(Rigidbody rb){
         {
             SoundManager.instance.playSoundEffectOnce(hitSound);
             other.gameObject.SetActive(false);
-            Debug.Log("Target object hit");
+            //Debug.Log("Target object hit");
         }
         else if (other.gameObject.CompareTag("Enemy"))
         {
