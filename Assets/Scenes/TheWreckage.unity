@@ -217,7 +217,7 @@ MonoBehaviour:
     luaWizardIndex: -1
   skipIfNoValidEntries: 0
   exclusive: 1
-  conversant: {fileID: 1353996638}
+  conversant: {fileID: 0}
   useConversationTitlePicker: 1
   selectedDatabase: {fileID: 11400000, guid: a642cfb5dfa2f1e4a86c49b621ab85b3, type: 2}
   actor: {fileID: 1773062257}
@@ -244,7 +244,7 @@ MonoBehaviour:
     luaWizardIndex: -1
   skipIfNoValidEntries: 0
   exclusive: 1
-  conversant: {fileID: 1353996638}
+  conversant: {fileID: 0}
   useConversationTitlePicker: 1
   selectedDatabase: {fileID: 11400000, guid: a642cfb5dfa2f1e4a86c49b621ab85b3, type: 2}
   actor: {fileID: 1773062257}
@@ -271,7 +271,7 @@ MonoBehaviour:
     luaWizardIndex: -1
   skipIfNoValidEntries: 0
   exclusive: 1
-  conversant: {fileID: 1353996638}
+  conversant: {fileID: 0}
   useConversationTitlePicker: 1
   selectedDatabase: {fileID: 11400000, guid: a642cfb5dfa2f1e4a86c49b621ab85b3, type: 2}
   actor: {fileID: 1773062257}
@@ -469,7 +469,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400128, guid: 1219fc31c4173ec408886f55e81c6c82, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 10.71
+      value: 7.85
       objectReference: {fileID: 0}
     - target: {fileID: 400128, guid: 1219fc31c4173ec408886f55e81c6c82, type: 2}
       propertyPath: m_LocalRotation.x
@@ -507,7 +507,20 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 11100000, guid: 1219fc31c4173ec408886f55e81c6c82, type: 2}
+      propertyPath: m_Animation
+      value: 
+      objectReference: {fileID: 7400012, guid: 57578b1192ab28b42ad9d44c29602712, type: 3}
+    - target: {fileID: 11100000, guid: 1219fc31c4173ec408886f55e81c6c82, type: 2}
+      propertyPath: m_AnimatePhysics
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11100000, guid: 1219fc31c4173ec408886f55e81c6c82, type: 2}
+      propertyPath: m_CullingType
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 11100000, guid: 1219fc31c4173ec408886f55e81c6c82, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 1219fc31c4173ec408886f55e81c6c82, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &35352460 stripped
@@ -1862,7 +1875,8 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 5559bf596d0edc8459b2ed2321fb3a8c, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 11100000, guid: 1219fc31c4173ec408886f55e81c6c82, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 1219fc31c4173ec408886f55e81c6c82, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &106048236 stripped
@@ -2781,6 +2795,23 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!95 &106048293
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 106048236}
+  m_Enabled: 0
+  m_Avatar: {fileID: 9000000, guid: 57578b1192ab28b42ad9d44c29602712, type: 3}
+  m_Controller: {fileID: 9100000, guid: 1b0a39f41686f6a4eaf5022c3c8f4d7d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 1
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1001 &107749268
 Prefab:
   m_ObjectHideFlags: 0
@@ -2844,7 +2875,8 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 3428f066f9e8c5f4bb7d05b44d46b647, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 11100000, guid: 1219fc31c4173ec408886f55e81c6c82, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 1219fc31c4173ec408886f55e81c6c82, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &107749269 stripped
@@ -3763,6 +3795,23 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!95 &107749326
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 107749269}
+  m_Enabled: 0
+  m_Avatar: {fileID: 9000000, guid: 57578b1192ab28b42ad9d44c29602712, type: 3}
+  m_Controller: {fileID: 9100000, guid: 1b0a39f41686f6a4eaf5022c3c8f4d7d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 1
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1001 &109167049
 Prefab:
   m_ObjectHideFlags: 0
@@ -5296,7 +5345,7 @@ MonoBehaviour:
     luaWizardIndex: -1
   skipIfNoValidEntries: 0
   exclusive: 1
-  conversant: {fileID: 1353996638}
+  conversant: {fileID: 0}
   useConversationTitlePicker: 1
   selectedDatabase: {fileID: 11400000, guid: a642cfb5dfa2f1e4a86c49b621ab85b3, type: 2}
   actor: {fileID: 1773062257}
@@ -7854,7 +7903,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.4885079, y: 0.0000002918241, z: 0.000000014901161}
+  m_ConnectedAnchor: {x: -0.48850793, y: -0.00000018501305, z: 0.000000020489097}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 1, z: 0}
   m_TwistLimitSpring:
@@ -10403,7 +10452,8 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: d2d202359ca8a1241891eb5556130477, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 11100000, guid: 1219fc31c4173ec408886f55e81c6c82, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 1219fc31c4173ec408886f55e81c6c82, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &576244760 stripped
@@ -11322,6 +11372,23 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!95 &576244817
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 576244760}
+  m_Enabled: 0
+  m_Avatar: {fileID: 9000000, guid: 57578b1192ab28b42ad9d44c29602712, type: 3}
+  m_Controller: {fileID: 9100000, guid: 1b0a39f41686f6a4eaf5022c3c8f4d7d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 1
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &579128972
 GameObject:
   m_ObjectHideFlags: 0
@@ -11608,7 +11675,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 300, y: 60}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.30859375, y: 0.0546875}
+  savedTextUV0: {x: 0.03515625, y: 0.234375}
 --- !u!114 &590822888
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14344,7 +14411,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.33294544, y: -0.0000003981404, z: 0.0000001322478}
+  m_ConnectedAnchor: {x: -0.33294538, y: 0.00000006472692, z: 0.000000074505806}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: -1}
   m_TwistLimitSpring:
@@ -15690,7 +15757,7 @@ MeshCollider:
   m_GameObject: {fileID: 875101393}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Convex: 0
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
@@ -16141,7 +16208,7 @@ MonoBehaviour:
     luaWizardIndex: -1
   skipIfNoValidEntries: 0
   exclusive: 0
-  conversant: {fileID: 1353996638}
+  conversant: {fileID: 0}
   useConversationTitlePicker: 1
   selectedDatabase: {fileID: 11400000, guid: a642cfb5dfa2f1e4a86c49b621ab85b3, type: 2}
   actor: {fileID: 1773062257}
@@ -19239,7 +19306,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 300, y: 100}
   savedColor: {r: 0, g: 0, b: 0, a: 1}
-  savedTextUV0: {x: 0.00390625, y: 0.19140625}
+  savedTextUV0: {x: 0.05078125, y: 0.0390625}
 --- !u!114 &1150663246
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19814,7 +19881,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 160, y: 30}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.05078125, y: 0.0390625}
+  savedTextUV0: {x: 0.234375, y: 0.00390625}
 --- !u!114 &1206821802
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20347,7 +20414,6 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1773062257}
-  - {fileID: 1353996638}
   m_Father: {fileID: 0}
   m_RootOrder: 6
 --- !u!1 &1297795368
@@ -20468,6 +20534,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f26e6c975b22f24b9a8839932a5b040, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1301546848
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1301546843}
+  m_Enabled: 0
+  m_Avatar: {fileID: 9000000, guid: 57578b1192ab28b42ad9d44c29602712, type: 3}
+  m_Controller: {fileID: 9100000, guid: 1b0a39f41686f6a4eaf5022c3c8f4d7d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 1
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1312040496
 GameObject:
   m_ObjectHideFlags: 0
@@ -20776,7 +20859,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.33294564, y: -0.00000037066638, z: 0.000000040978193}
+  m_ConnectedAnchor: {x: -0.33294564, y: 0.000000091735274, z: 0.00000016763806}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -21495,109 +21578,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1352105729}
---- !u!1 &1353996637
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1353996638}
-  - 82: {fileID: 1353996639}
-  m_Layer: 0
-  m_Name: Alice
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1353996638
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1353996637}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -7, z: -236}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1295974420}
-  m_RootOrder: 1
---- !u!82 &1353996639
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1353996637}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 0.595
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    - time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
 --- !u!1 &1359359300
 GameObject:
   m_ObjectHideFlags: 0
@@ -22023,7 +22003,7 @@ MonoBehaviour:
     luaWizardIndex: -1
   skipIfNoValidEntries: 0
   exclusive: 1
-  conversant: {fileID: 1353996638}
+  conversant: {fileID: 0}
   useConversationTitlePicker: 1
   selectedDatabase: {fileID: 11400000, guid: a642cfb5dfa2f1e4a86c49b621ab85b3, type: 2}
   actor: {fileID: 1773062257}
@@ -22566,6 +22546,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f26e6c975b22f24b9a8839932a5b040, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1429047487
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1429047485}
+  m_Enabled: 0
+  m_Avatar: {fileID: 9000000, guid: 57578b1192ab28b42ad9d44c29602712, type: 3}
+  m_Controller: {fileID: 9100000, guid: 1b0a39f41686f6a4eaf5022c3c8f4d7d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 1
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1441053819
 GameObject:
   m_ObjectHideFlags: 0
@@ -23024,7 +23021,7 @@ MonoBehaviour:
     luaWizardIndex: -1
   skipIfNoValidEntries: 0
   exclusive: 0
-  conversant: {fileID: 1353996638}
+  conversant: {fileID: 0}
   useConversationTitlePicker: 1
   selectedDatabase: {fileID: 11400000, guid: a642cfb5dfa2f1e4a86c49b621ab85b3, type: 2}
   actor: {fileID: 1773062257}
@@ -28736,7 +28733,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 160, y: 30}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.05078125, y: 0.0390625}
+  savedTextUV0: {x: 0.234375, y: 0.00390625}
 --- !u!114 &1907131972
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29022,7 +29019,8 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 3428f066f9e8c5f4bb7d05b44d46b647, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 11100000, guid: 1219fc31c4173ec408886f55e81c6c82, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 1219fc31c4173ec408886f55e81c6c82, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1930165730
@@ -30054,7 +30052,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.01794719, y: 0.06417559, z: -0.13416414}
+  m_ConnectedAnchor: {x: -0.017947188, y: 0.06417607, z: -0.13416414}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 1, z: 0}
   m_TwistLimitSpring:
@@ -31026,7 +31024,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.022697713, y: 0.046636697, z: -0.18270874}
+  m_ConnectedAnchor: {x: 0.022697702, y: 0.046636224, z: -0.18270874}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 1, z: 0}
   m_TwistLimitSpring:
@@ -31359,7 +31357,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 160, y: 30}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.05078125, y: 0.0390625}
+  savedTextUV0: {x: 0.234375, y: 0.00390625}
 --- !u!114 &2102231377
 MonoBehaviour:
   m_ObjectHideFlags: 0

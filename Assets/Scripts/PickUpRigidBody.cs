@@ -3,8 +3,8 @@ using System.Collections;
 
 public class PickUpRigidBody : MonoBehaviour {
     Camera mainCamera;
-    bool carrying;
-    GameObject carriedObject;
+    //bool carrying;
+    //GameObject carriedOkbject;
     public float smooth;
     public float distance;
     public float maxDistance;
@@ -45,14 +45,14 @@ public class PickUpRigidBody : MonoBehaviour {
             }
         }
         if (p == null) return;
-        carrying = true;
+        //carrying = true;
         if (!springJoint){
             GameObject obj = new GameObject("Rigidbody dragger");
             Rigidbody body = obj.AddComponent<Rigidbody>();
             springJoint = obj.AddComponent<SpringJoint>();
             body.isKinematic = true;
         }
-        carriedObject = p.gameObject;
+        //carriedObject = p.gameObject;
 
         springJoint.transform.position = hit.point;
         //springJoint.anchor = Vector3.zero;

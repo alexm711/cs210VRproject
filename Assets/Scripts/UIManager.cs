@@ -127,9 +127,9 @@ public class UIManager : MonoBehaviour {
 	}
 	public void SetDialogueVolume(float val){
 		AudioSource Ellie_Audio = GameObject.Find ("Ellie").GetComponent<AudioSource> ();
-		AudioSource Alice_Audio = GameObject.Find ("Alice").GetComponent<AudioSource> ();
+		//AudioSource Alice_Audio = GameObject.Find ("Alice").GetComponent<AudioSource> ();
 		Ellie_Audio.volume = val;
-		Alice_Audio.volume = val;
+		//Alice_Audio.volume = val;
 
 //		GetComponent<AudioSource>().volume = val;
 	}

@@ -43,7 +43,7 @@ public class PlayerControllerAlex : MonoBehaviour {
     //public float thrust_up_or_down_flag = 1;
     private Vector3 movementVector;
     private bool navigationDisabled = false;
-    private bool mapping1 = true;
+    //private bool mapping1 = true;
     private Quaternion camera_rotation;
 
     public AudioClip hitSound;

@@ -2645,7 +2645,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: "AudioWait(Dialogue/dialogue31)\uFEFF"
+        value: "AudioWait(Dialogue/dialogue32)\uFEFF"
         type: 0
         typeString: 
       - title: canvasRect
@@ -2670,7 +2670,7 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 28.96907
+        x: 30.96907
         y: 1668.287
         width: 160
         height: 30
