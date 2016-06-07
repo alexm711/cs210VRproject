@@ -245,17 +245,17 @@ public class PlayerControllerAlex : MonoBehaviour {
 					rb.rotation = Quaternion.Slerp (rb.rotation, Quaternion.Euler (0, y, 0), 0.01f);
 				}
 			}
-		    if (Input.GetButtonDown ("Xbox_360_RightStickClick")) {
-				camera_rotation = GameObject.FindObjectOfType<Camera> ().transform.rotation;
-			}
-			if (Input.GetButton ("Xbox_360_RightStickClick")) {
-				if (rb.angularVelocity.magnitude > braking_rotation_threshold)
-					rb.AddTorque (rb.angularVelocity.normalized * -rotation_acceleration * Time.deltaTime);
-				else {
-					rb.angularVelocity = Vector3.zero;
-					rb.rotation = Quaternion.Slerp (rb.rotation, camera_rotation, 0.01f);
-				}
-			}
+		 //   if (Input.GetButtonDown ("Xbox_360_RightStickClick")) {
+			//	camera_rotation = GameObject.FindObjectOfType<Camera> ().transform.rotation;
+			//}
+			//if (Input.GetButton ("Xbox_360_RightStickClick")) {
+			//	if (rb.angularVelocity.magnitude > braking_rotation_threshold)
+			//		rb.AddTorque (rb.angularVelocity.normalized * -rotation_acceleration * Time.deltaTime);
+			//	else {
+			//		rb.angularVelocity = Vector3.zero;
+			//		rb.rotation = Quaternion.Slerp (rb.rotation, camera_rotation, 0.01f);
+			//	}
+			//}
 
             //if (Input.GetAxis ("Xbox_360_LeftTrigger") != 0) {
             //	//Zoom-in function + make cursor visible
