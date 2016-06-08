@@ -1347,7 +1347,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: AudioWait(Dialogue/dialogue32)
+        value: AudioWait(Dialogue/dialogue14)
         type: 0
         typeString: 
       - title: canvasRect
@@ -1491,7 +1491,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: AudioWait(Dialogue/dialogue32)
+        value: AudioWait(Dialogue/dialogue16)
         type: 0
         typeString: 
       - title: canvasRect

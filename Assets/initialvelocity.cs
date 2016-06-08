@@ -6,7 +6,7 @@ public class initialvelocity : MonoBehaviour {
     // Use this for initialization
     void Start () {
          rb = GetComponent<Rigidbody>();
-        rb.velocity = new Vector3(0, 0, -1.5f);
+        rb.velocity = new Vector3(0, 0, -2f);
 	}
 	
 	// Update is called once per frame
