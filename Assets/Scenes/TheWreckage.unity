@@ -4241,8 +4241,8 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1879531082}
   m_RootOrder: 0
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -5180,111 +5180,6 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Slider+SliderEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!1 &200837796
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 200837797}
-  - 33: {fileID: 200837801}
-  - 65: {fileID: 200837800}
-  - 23: {fileID: 200837799}
-  - 114: {fileID: 200837798}
-  m_Layer: 0
-  m_Name: Collected Repair Kit trigger (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &200837797
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 200837796}
-  m_LocalRotation: {x: 0, y: -1, z: 0, w: -0.00000016292068}
-  m_LocalPosition: {x: 0, y: 40, z: 39.7}
-  m_LocalScale: {x: 788.2486, y: 380.86392, z: 267.40607}
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
-  m_Children: []
-  m_Father: {fileID: 217357558}
-  m_RootOrder: 6
---- !u!114 &200837798
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 200837796}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 567319595, guid: b5a7519e94754fb4a8ea0c272031db78, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  once: 1
-  conversation: Approaching the station wreckage
-  condition:
-    luaConditions: []
-    questConditions: []
-    acceptedTags: []
-    acceptedGameObjects:
-    - {fileID: 1760549606}
-    luaWizardIndex: -1
-  skipIfNoValidEntries: 0
-  exclusive: 1
-  conversant: {fileID: 0}
-  useConversationTitlePicker: 1
-  selectedDatabase: {fileID: 11400000, guid: a642cfb5dfa2f1e4a86c49b621ab85b3, type: 2}
-  actor: {fileID: 1773062257}
-  trigger: 8
-  stopConversationOnTriggerExit: 0
---- !u!23 &200837799
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 200837796}
-  m_Enabled: 0
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!65 &200837800
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 200837796}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!33 &200837801
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 200837796}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &203263929
 GameObject:
   m_ObjectHideFlags: 0
@@ -5624,7 +5519,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Reset Level?
+  m_Text: Quit?
 --- !u!222 &215319394
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5658,13 +5553,11 @@ Transform:
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
   m_Children:
-  - {fileID: 1379918922}
   - {fileID: 1063777710}
   - {fileID: 1223646484}
   - {fileID: 1616144089}
   - {fileID: 935401549}
   - {fileID: 843626238}
-  - {fileID: 200837797}
   m_Father: {fileID: 0}
   m_RootOrder: 12
 --- !u!54 &217357559
@@ -11847,7 +11740,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 300, y: 60}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.04296875, y: 0.12890625}
+  savedTextUV0: {x: 0.109375, y: 0.00390625}
 --- !u!114 &590822888
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12538,9 +12431,9 @@ MonoBehaviour:
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Skip Dialogue
+  m_Text: Skip/Resume Dialogue
 --- !u!222 &632393102
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13756,7 +13649,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PauseUI: {fileID: 851536512}
-  subtitlesToggle: 1
+  subtitlesToggle: 0
 --- !u!1 &720825423
 GameObject:
   m_ObjectHideFlags: 0
@@ -15003,7 +14896,7 @@ RectTransform:
   m_Father: {fileID: 536746725}
   m_RootOrder: 0
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -15162,7 +15055,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
   m_Children: []
   m_Father: {fileID: 217357558}
-  m_RootOrder: 5
+  m_RootOrder: 4
 --- !u!23 &843626239
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -17133,7 +17026,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
   m_Children: []
   m_Father: {fileID: 217357558}
-  m_RootOrder: 4
+  m_RootOrder: 3
 --- !u!23 &935401550
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -17427,7 +17320,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &969603246
 RectTransform:
   m_ObjectHideFlags: 0
@@ -18570,7 +18463,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &1035769027
 GameObject:
   m_ObjectHideFlags: 0
@@ -19044,7 +18937,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 217357558}
-  m_RootOrder: 1
+  m_RootOrder: 0
 --- !u!23 &1063777711
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -19789,7 +19682,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 300, y: 100}
   savedColor: {r: 0, g: 0, b: 0, a: 1}
-  savedTextUV0: {x: 0.05078125, y: 0.0390625}
+  savedTextUV0: {x: 0.00390625, y: 0.19140625}
 --- !u!114 &1150663246
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19860,8 +19753,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   songs:
+  - {fileID: 8300000, guid: 0d4723322785071458cd3b01a972dfee, type: 3}
   - {fileID: 8300000, guid: 45c7d9c825472a54b9fa48d30e76b318, type: 3}
+  - {fileID: 8300000, guid: 624ccfe668a835447be640d24448fdd4, type: 3}
   - {fileID: 8300000, guid: eb9db7d0592ed8e48bca6d759b50c3bf, type: 3}
+  - {fileID: 8300000, guid: 973254b6e1b65dc4a8878df4a7876a99, type: 3}
   dialogue: {fileID: 0}
 --- !u!82 &1152331783
 AudioSource:
@@ -19872,7 +19768,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 45c7d9c825472a54b9fa48d30e76b318, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 0d4723322785071458cd3b01a972dfee, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.112
   m_Pitch: 1
@@ -20111,7 +20007,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &1165635878
 GameObject:
   m_ObjectHideFlags: 0
@@ -20506,7 +20402,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 160, y: 30}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.234375, y: 0.00390625}
+  savedTextUV0: {x: 0.05078125, y: 0.0390625}
 --- !u!114 &1206821802
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20646,7 +20542,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 217357558}
-  m_RootOrder: 2
+  m_RootOrder: 1
 --- !u!23 &1223646485
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -22760,111 +22656,6 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1378707670}
---- !u!1 &1379918921
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1379918922}
-  - 33: {fileID: 1379918926}
-  - 65: {fileID: 1379918925}
-  - 23: {fileID: 1379918924}
-  - 114: {fileID: 1379918923}
-  m_Layer: 0
-  m_Name: Collected Repair Kit trigger
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1379918922
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1379918921}
-  m_LocalRotation: {x: 0, y: -1, z: 0, w: -0.00000016292068}
-  m_LocalPosition: {x: 0, y: 40, z: 0}
-  m_LocalScale: {x: 100, y: 80, z: 100}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 217357558}
-  m_RootOrder: 0
---- !u!114 &1379918923
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1379918921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 567319595, guid: b5a7519e94754fb4a8ea0c272031db78, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  once: 1
-  conversation: Collected repair kit and cutting tool
-  condition:
-    luaConditions: []
-    questConditions: []
-    acceptedTags: []
-    acceptedGameObjects:
-    - {fileID: 1760549606}
-    luaWizardIndex: -1
-  skipIfNoValidEntries: 0
-  exclusive: 1
-  conversant: {fileID: 0}
-  useConversationTitlePicker: 1
-  selectedDatabase: {fileID: 11400000, guid: a642cfb5dfa2f1e4a86c49b621ab85b3, type: 2}
-  actor: {fileID: 1773062257}
-  trigger: 8
-  stopConversationOnTriggerExit: 0
---- !u!23 &1379918924
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1379918921}
-  m_Enabled: 0
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!65 &1379918925
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1379918921}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!33 &1379918926
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1379918921}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1387544936
 GameObject:
   m_ObjectHideFlags: 0
@@ -24400,6 +24191,7 @@ GameObject:
   - 114: {fileID: 1521829128}
   - 114: {fileID: 1521829131}
   - 114: {fileID: 1521829130}
+  - 82: {fileID: 1521829132}
   m_Layer: 0
   m_Name: Dialogue Manager
   m_TagString: Untagged
@@ -24553,6 +24345,80 @@ MonoBehaviour:
     target: {fileID: 1521829129}
     methodName: startTimeoutForResponse
     parameter: 
+--- !u!82 &1521829132
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1521829127}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 0.595
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!1 &1529827654 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: b96e6a7e1f9daf54fb7ae5947dade842, type: 2}
@@ -25566,7 +25432,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0fc98a7e5f95964392167efc46e3fb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  multiple: 0.01
+  multiple: 0.03
   tol: 0.01
   tol2: 0.01
 --- !u!1 &1582620261
@@ -26045,7 +25911,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
   m_Children: []
   m_Father: {fileID: 217357558}
-  m_RootOrder: 3
+  m_RootOrder: 2
 --- !u!23 &1616144090
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -29719,7 +29585,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 160, y: 30}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.234375, y: 0.00390625}
+  savedTextUV0: {x: 0.05078125, y: 0.0390625}
 --- !u!114 &1907131972
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32420,7 +32286,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 160, y: 30}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.234375, y: 0.00390625}
+  savedTextUV0: {x: 0.05078125, y: 0.0390625}
 --- !u!114 &2102231377
 MonoBehaviour:
   m_ObjectHideFlags: 0

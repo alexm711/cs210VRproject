@@ -29,10 +29,10 @@ public class UIManager : MonoBehaviour {
         _AASlider = GameObject.Find("Angular_Acceleration_Slider").GetComponent<Slider>();
         _LASlider = GameObject.Find("Linear_Acceleration_Slider").GetComponent<Slider>();
         _LVSlider = GameObject.Find("Linear_Velocity_Slider").GetComponent<Slider>();
-        _difficultySlider = GameObject.Find("Difficulty_Slider").GetComponent<Slider>();
+        //_difficultySlider = GameObject.Find("Difficulty_Slider").GetComponent<Slider>();
         _LASlider.interactable = false;
         _AASlider.interactable = false;
-        _difficultySlider.interactable = false;
+        //_difficultySlider.interactable = false;
         GameObject.Find("Controller_Panel").GetComponent<CanvasGroup>().alpha = 0f;
 
 
@@ -126,9 +126,9 @@ public class UIManager : MonoBehaviour {
 		PlayerControllerAlex.boost_multiplier = value;	
 	}
 	public void SetDialogueVolume(float val){
-		AudioSource Ellie_Audio = GameObject.Find ("Ellie").GetComponent<AudioSource> ();
-		//AudioSource Alice_Audio = GameObject.Find ("Alice").GetComponent<AudioSource> ();
-		Ellie_Audio.volume = val;
+		AudioSource Story_Audio = GameObject.Find ("Dialogue Manager").GetComponent<AudioSource> ();
+        //AudioSource Alice_Audio = GameObject.Find ("Alice").GetComponent<AudioSource> ();
+        Story_Audio.volume = val;
 		//Alice_Audio.volume = val;
 
 //		GetComponent<AudioSource>().volume = val;

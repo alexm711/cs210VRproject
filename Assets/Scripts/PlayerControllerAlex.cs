@@ -9,7 +9,7 @@ public class PlayerControllerAlex : MonoBehaviour {
 	public static bool allowPitch = true;
 	public static bool invert_yaxis = false;
     public static bool fixed_angular_speed = true;
-    public static bool fixed_linear_speed = true;
+    public static bool fixed_linear_speed = false;
     public static bool safety_collisions = true;
     public static float rotation_velocity = 60f;
     public static float translation_velocity = 160f;

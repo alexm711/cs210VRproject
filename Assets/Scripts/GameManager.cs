@@ -13,9 +13,14 @@ public class GameManager : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         PauseUI.GetComponentInChildren<Canvas>().enabled = false;
-        prevSelectedMenuGameObject = GameObject.Find("Difficulty_Slider");
-
-
+        prevSelectedMenuGameObject = GameObject.Find("Fixed_Angular_Speed_Toggle");
+        //ToggleSubtitles();
+    }
+    void Awake()
+    {
+        GameObject.Find("SF Unity UI Dialogue UI Response Template/Dialogue_Panel/NPC_Panel").GetComponent<CanvasGroup>().alpha = 0f;
+        GameObject.Find("SF Unity UI Dialogue UI Response Template/Dialogue_Panel/PC Subtitle Line").GetComponent<CanvasGroup>().alpha = 0f;
+        GameObject.Find("SF Unity UI Dialogue UI Response Template/Dialogue_Panel/NPC Reminder Panel").GetComponent<CanvasGroup>().alpha = 0f;
     }
 
     // Update is called once per frame
@@ -25,8 +30,10 @@ public class GameManager : MonoBehaviour {
     //	UnityEngine.EventSystems.EventSystem.current.SetSelectedGameObject(continueButton.gameObject, null);
     //	UnityEngine.EventSystems.EventSystem.curre
     public void ResetLevel(){
-//		SceneManager.UnloadScene ("TheWreckage");
-		Scene scene = SceneManager.GetActiveScene ();
+        //		SceneManager.UnloadScene ("TheWreckage");
+        Application.Quit();
+
+        Scene scene = SceneManager.GetActiveScene ();
 //		UnityUISubtitleControls
 		PixelCrushers.DialogueSystem.PersistentDataManager.Reset (DatabaseResetOptions.RevertToDefault);
 		SceneManager.LoadScene(scene.buildIndex);
